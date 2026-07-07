@@ -1,0 +1,22 @@
+---
+
+title: Supported locales
+description: Search the locales supported by the General Translation platform.
+
+---
+
+# Supported locales
+
+A list of the 110+ locales currently supported by General Translation
+
+## Search locales 
+
+Below is a searchable list of all the [locales](/docs/platform/core/guides/locales) currently supported by the General Translation platform.
+
+<SupportedLocales />
+
+## Further reading
+
+- Refer to the official [IETF Language Tag Registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+  and the [BCP 47 / RFC 5646 specification](https://www.rfc-editor.org/rfc/rfc5646.html) for more information.
+- See also the [W3C guide on language tags](https://www.w3.org/International/articles/language-tags/) for a practical overview.

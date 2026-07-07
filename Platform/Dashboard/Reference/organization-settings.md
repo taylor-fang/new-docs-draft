@@ -1,0 +1,45 @@
+---
+
+title: Organization Settings
+
+description: Manage organization members, roles, invitations, and default settings.
+
+---
+
+# Organization Settings
+
+General Translation accounts use **Organizations** as the main workspace for Projects and team members. Most users work within a single Organization.
+
+For larger teams, **Enterprises** provide an optional layer above Organizations. Enterprises can manage multiple Organizations and centralize member management. If your account is not part of an Enterprise, Enterprise sections won't appear in your sidebar.
+
+## Inviting new members
+
+Organization admins can invite new members by email.
+
+Invitees receive a link to join the Organization. The link expires after 24 hours.
+
+For Enterprise accounts, members added at the Enterprise level can access all managed Organizations.
+
+## Member roles
+
+The Members page shows everyone with access to your organization. Roles control what members can see and do.
+
+- **Admin** has full access to all organization settings, projects, members, billing, and translations. Admins can delete the organization.
+- **Developer** has technical access to projects, including API keys, GitHub integration, Locadex, and usage data.
+- **Editor** can read, edit, and review translations.
+- **Member** can view the organization but has no specific permissions by default.
+
+For a detailed breakdown, see [roles and permissions](/docs/platform/dashboard/reference/roles-and-permissions).
+
+## Usage and billing
+
+See translation and Locadex usage by time period, and manage your plan, billing, and credit balance. [Contact us](https://generaltranslation.com/en-US/enterprise/contact) if you're interested in Enterprise plans for larger teams with complex localization needs.
+
+## Other settings
+
+From Organization settings, you can update:
+
+- Organization name
+- GitHub connection
+- Integrations
+- SSO

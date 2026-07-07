@@ -1,0 +1,1499 @@
+{
+  "id": "platform",
+  "nav_title": "Platform",
+  "page_title": "Platform",
+  "kind": "header",
+  "path": "/docs/platform/index.md",
+  "description": "",
+  "related": [],
+  "children": [
+    {
+      "id": "platform-dashboard",
+      "nav_title": "Dashboard",
+      "page_title": "Dashboard",
+      "kind": "header",
+      "path": "/docs/platform/dashboard/get-started.md",
+      "description": "Learn how the Dashboard is organized and where to find common translation workflows.",
+      "related": [],
+      "children": [
+        {
+          "id": "platform-dashboard-get-started",
+          "nav_title": "Get started",
+          "page_title": "Get started",
+          "kind": "page",
+          "path": "/docs/platform/dashboard/get-started.md",
+          "description": "Learn how the Dashboard is organized and where to find common translation workflows.",
+          "related": [],
+          "children": []
+        },
+        {
+          "id": "platform-dashboard-guides",
+          "nav_title": "Guides",
+          "page_title": "Guides",
+          "kind": "header",
+          "path": "/docs/platform/dashboard/guides/index.md",
+          "description": "Browse how-to Guides for using the General Translation Dashboard.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-dashboard-guides-review-and-edit-translations",
+              "nav_title": "Review and edit translations",
+              "page_title": "Review and edit translations",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/guides/edit-translations.md",
+              "description": "Review generated translations, make manual edits, compare locales, and inspect version history in the Dashboard.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-guides-guide-translations-with-context-and-key-terms",
+              "nav_title": "Guide translations with context and key terms",
+              "page_title": "Guide translations with context and key terms",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/guides/context.md",
+              "description": "Use Context Groups with Glossary (key terms) and Directives (tone and style) to guide AI translation.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-guides-add-annotations",
+              "nav_title": "Add annotations",
+              "page_title": "Add annotations",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/guides/annotations.md",
+              "description": "Use labels, notes, and comments to coordinate translation review by entry and locale.",
+              "related": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "platform-dashboard-reference",
+          "nav_title": "Reference",
+          "page_title": "Reference",
+          "kind": "header",
+          "path": "/docs/platform/dashboard/reference/index.md",
+          "description": "Browse Reference pages for the General Translation Dashboard.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-dashboard-reference-api-keys",
+              "nav_title": "API keys",
+              "page_title": "API keys",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/reference/api-keys.md",
+              "description": "Create and manage project and organization API keys for apps, local development, and automation.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-reference-api-reference",
+              "nav_title": "API reference",
+              "page_title": "API reference",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/reference/api-reference.md",
+              "description": "Find the public General Translation API endpoints, authentication details, and OpenAPI spec.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-reference-webhooks",
+              "nav_title": "Webhooks",
+              "page_title": "Webhooks",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/reference/webhooks.md",
+              "description": "Configure webhook endpoints, verify signatures, and handle translation events from General Translation.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-reference-organization-settings",
+              "nav_title": "Organization settings",
+              "page_title": "Organization settings",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/reference/organization-settings.md",
+              "description": "Manage organization members, roles, invitations, and default settings.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-reference-roles-and-permissions",
+              "nav_title": "Roles and permissions",
+              "page_title": "Roles and permissions",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/reference/roles-and-permissions.md",
+              "description": "Understand the default organization roles, permission categories, and how permissions inherit across enterprises, organizations, and projects.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-reference-project-settings",
+              "nav_title": "Project settings",
+              "page_title": "Project settings",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/reference/project-settings.md",
+              "description": "Project settings control how an individual project appears and how its translations are delivered.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-reference-supported-locales",
+              "nav_title": "Supported locales",
+              "page_title": "Supported locales",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/reference/supported-locales.md",
+              "description": "Search the locales supported by the General Translation platform.",
+              "related": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platform-locadex",
+      "nav_title": "Locadex",
+      "page_title": "Locadex",
+      "kind": "header",
+      "path": "/docs/platform/locadex/get-started.md",
+      "description": "Learn how to use Locadex, the AI agent which connects your codebase, translations, and content sources. It’s the fastest way to run full stack localization.",
+      "related": [],
+      "children": [
+        {
+          "id": "platform-locadex-get-started",
+          "nav_title": "Get started",
+          "page_title": "Get started",
+          "kind": "page",
+          "path": "/docs/platform/locadex/get-started.md",
+          "description": "Learn how to use Locadex, the AI agent which connects your codebase, translations, and content sources. It’s the fastest way to run full stack localization.",
+          "related": [],
+          "children": []
+        },
+        {
+          "id": "platform-locadex-guides",
+          "nav_title": "Guides",
+          "page_title": "Guides",
+          "kind": "header",
+          "path": "/docs/platform/locadex/guides/index.md",
+          "description": "Browse how-to Guides for using the General Translation agent Locadex.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-locadex-guides-configure-locadex-workflows",
+              "nav_title": "Configure Locadex workflows",
+              "page_title": "Configure Locadex workflows",
+              "kind": "page",
+              "path": "/docs/platform/locadex/guides/configure-workflows.md",
+              "description": "Configure when Locadex runs codegen, translation, and locale update workflows.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-locadex-guides-use-locadex-in-a-monorepo",
+              "nav_title": "Use Locadex in a monorepo",
+              "page_title": "Use Locadex in a monorepo",
+              "kind": "page",
+              "path": "/docs/platform/locadex/guides/monorepos.md",
+              "description": "Use Locadex within a monorepo by configuring the app root directory and commands",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-locadex-guides-auto-merge-locadex-prs",
+              "nav_title": "Auto-merge Locadex PRs",
+              "page_title": "Auto-merge Locadex PRs",
+              "kind": "page",
+              "path": "/docs/platform/locadex/guides/auto-merge.md",
+              "description": "Configure Locadex to merge pull requests automatically when checks pass.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-locadex-guides-manage-languages",
+              "nav_title": "Manage languages",
+              "page_title": "Manage languages",
+              "kind": "page",
+              "path": "/docs/platform/locadex/guides/manage-languages.md",
+              "description": "Choose the source locale and target languages Locadex uses for translation workflows.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-locadex-guides-add-environment-variables",
+              "nav_title": "Add environment variables",
+              "page_title": "Add environment variables",
+              "kind": "page",
+              "path": "/docs/platform/locadex/guides/environment-variables.md",
+              "description": "Add key-value environment variables that Locadex injects into the sandbox when workflows run.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-locadex-guides-view-workflow-history",
+              "nav_title": "View workflow history",
+              "page_title": "View workflow history",
+              "kind": "page",
+              "path": "/docs/platform/locadex/guides/workflow-history.md",
+              "description": "View recent and past Locadex workflow runs from the Agent and History pages.",
+              "related": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "platform-locadex-reference",
+          "nav_title": "Reference",
+          "page_title": "Reference",
+          "kind": "header",
+          "path": "/docs/platform/locadex/reference/index.md",
+          "description": "Browse Reference pages for the General Translation agent Locadex.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-locadex-reference-agent-page",
+              "nav_title": "Agent page",
+              "page_title": "Agent page",
+              "kind": "page",
+              "path": "/docs/platform/locadex/reference/agent.md",
+              "description": "Reference for the Locadex Agent page, repository status, languages, and recent workflow runs.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-locadex-reference-configuration",
+              "nav_title": "Configuration",
+              "page_title": "Configuration",
+              "kind": "page",
+              "path": "/docs/platform/locadex/reference/configuration.md",
+              "description": "Reference for Locadex general settings, workflows, languages, secrets, and danger zone actions.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-locadex-reference-vm-image",
+              "nav_title": "VM image",
+              "page_title": "VM image",
+              "kind": "page",
+              "path": "/docs/platform/locadex/reference/vm-image.md",
+              "description": "Reference for the sandbox environment Locadex uses to run workflows.",
+              "related": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platform-openapi",
+      "nav_title": "OpenAPI",
+      "page_title": "OpenAPI",
+      "kind": "header",
+      "path": "/docs/platform/openapi/get-started.md",
+      "description": "Learn how to use the public General Translation API endpoints and the OpenAPI spec.",
+      "related": [],
+      "children": [
+        {
+          "id": "platform-openapi-get-started",
+          "nav_title": "Get started",
+          "page_title": "Get started",
+          "kind": "page",
+          "path": "/docs/platform/openapi/get-started.md",
+          "description": "Learn how to use the public General Translation API endpoints and the OpenAPI spec.",
+          "related": [],
+          "children": []
+        },
+        {
+          "id": "platform-openapi-reference",
+          "nav_title": "Reference",
+          "page_title": "Reference",
+          "kind": "header",
+          "path": "/docs/platform/openapi/reference/index.md",
+          "description": "Browse Reference pages for the General Translation API.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-openapi-reference-files",
+              "nav_title": "Files",
+              "page_title": "Files",
+              "kind": "header",
+              "path": "/docs/platform/openapi/reference/files/upload-source.md",
+              "description": "Browse OpenAPI Files pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-openapi-reference-files-upload-source-files",
+                  "nav_title": "Upload source files",
+                  "page_title": "Upload source files",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/upload-source.md",
+                  "description": "Upload one or more source files to a project before queuing translation.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-upload-translations",
+                  "nav_title": "Upload translations",
+                  "page_title": "Upload translations",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/upload-translations.md",
+                  "description": "Upload translated files that match previously uploaded source files.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-submit-file-diffs",
+                  "nav_title": "Submit file diffs",
+                  "page_title": "Submit file diffs",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/submit-diffs.md",
+                  "description": "Submit diffs for changed source or translated content instead of uploading full files.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-download-files",
+                  "nav_title": "Download files",
+                  "page_title": "Download files",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/download-many.md",
+                  "description": "Download multiple translated files in one request.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-download-file",
+                  "nav_title": "Download file",
+                  "page_title": "Download file",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/download.md",
+                  "description": "Download a single translated file for a project, locale, or version.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-publish-files",
+                  "nav_title": "Publish files",
+                  "page_title": "Publish files",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/publish-files.md",
+                  "description": "Mark translated files as published so they are ready for delivery.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-get-file-information",
+                  "nav_title": "Get file information",
+                  "page_title": "Get file information",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/file-info.md",
+                  "description": "Inspect source file metadata, versions, locales, and translation state.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-get-translation-status",
+                  "nav_title": "Get translation status",
+                  "page_title": "Get translation status",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/translation-status.md",
+                  "description": "Check translation progress and availability by file and locale.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-move-files",
+                  "nav_title": "Move files",
+                  "page_title": "Move files",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/move-files.md",
+                  "description": "Move or rename files in a project.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-files-get-orphaned-files",
+                  "nav_title": "Get orphaned files",
+                  "page_title": "Get orphaned files",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/files/orphaned-files.md",
+                  "description": "Find translated files that are no longer connected to current source files.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "platform-openapi-reference-context",
+              "nav_title": "Context",
+              "page_title": "Context",
+              "kind": "header",
+              "path": "/docs/platform/openapi/reference/context/generate-context.md",
+              "description": "Browse OpenAPI Context pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-openapi-reference-context-generate-translation-context",
+                  "nav_title": "Generate translation context",
+                  "page_title": "Generate translation context",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/context/generate-context.md",
+                  "description": "Generate project glossary terms and translation instructions from source files.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-context-check-context-freshness",
+                  "nav_title": "Check context freshness",
+                  "page_title": "Check context freshness",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/context/check-freshness.md",
+                  "description": "Check whether project context is missing, stale, or ready to refresh.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-context-get-context-generation-status",
+                  "nav_title": "Get context generation status",
+                  "page_title": "Get context generation status",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/context/context-status.md",
+                  "description": "Track the status of a context generation job.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "platform-openapi-reference-translation",
+              "nav_title": "Translation",
+              "page_title": "Translation",
+              "kind": "header",
+              "path": "/docs/platform/openapi/reference/translation/translate-runtime.md",
+              "description": "Browse OpenAPI Translation pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-openapi-reference-translation-translate-content-at-runtime",
+                  "nav_title": "Translate content at runtime",
+                  "page_title": "Translate content at runtime",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/translation/translate-runtime.md",
+                  "description": "Translate strings or structured content directly from an application or service.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-translation-queue-translations",
+                  "nav_title": "Queue translations",
+                  "page_title": "Queue translations",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/translation/queue.md",
+                  "description": "Queue uploaded source files for background translation.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "platform-openapi-reference-jobs",
+              "nav_title": "Jobs",
+              "page_title": "Jobs",
+              "kind": "header",
+              "path": "/docs/platform/openapi/reference/jobs/status.md",
+              "description": "Browse OpenAPI Jobs pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-openapi-reference-jobs-get-translation-job-status",
+                  "nav_title": "Get translation job status",
+                  "page_title": "Get translation job status",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/jobs/status.md",
+                  "description": "Retrieve status for a queued translation job.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "platform-openapi-reference-branches",
+              "nav_title": "Branches",
+              "page_title": "Branches",
+              "kind": "header",
+              "path": "/docs/platform/openapi/reference/branches/branch-info.md",
+              "description": "Browse OpenAPI Branches pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-openapi-reference-branches-get-branch-information",
+                  "nav_title": "Get branch information",
+                  "page_title": "Get branch information",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/branches/branch-info.md",
+                  "description": "Inspect branch metadata and project branch state.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-branches-create-a-branch",
+                  "nav_title": "Create a branch",
+                  "page_title": "Create a branch",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/branches/create-branch.md",
+                  "description": "Create a branch, or rename and confirm the default branch.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "platform-openapi-reference-tags",
+              "nav_title": "Tags",
+              "page_title": "Tags",
+              "kind": "header",
+              "path": "/docs/platform/openapi/reference/tags/upsert-tag.md",
+              "description": "Browse OpenAPI Tags pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-openapi-reference-tags-create-or-update-tag",
+                  "nav_title": "Create or update tag",
+                  "page_title": "Create or update tag",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/tags/upsert-tag.md",
+                  "description": "Create or update a tag on file versions for release tracking.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "platform-openapi-reference-project",
+              "nav_title": "Project",
+              "page_title": "Project",
+              "kind": "header",
+              "path": "/docs/platform/openapi/reference/project/project-info.md",
+              "description": "Browse OpenAPI Project pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-openapi-reference-project-get-project-information",
+                  "nav_title": "Get project information",
+                  "page_title": "Get project information",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/project/project-info.md",
+                  "description": "Read project metadata, settings, and configuration details.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-openapi-reference-project-update-project-information",
+                  "nav_title": "Update project information",
+                  "page_title": "Update project information",
+                  "kind": "page",
+                  "path": "/docs/platform/openapi/reference/project/update-project.md",
+                  "description": "Update project-level settings from automation.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platform-core",
+      "nav_title": "Core",
+      "page_title": "Core",
+      "kind": "header",
+      "path": "/docs/platform/core/get started/overview.md",
+      "description": "Learn what the `generaltranslation` core library does and when to use it directly.",
+      "related": [],
+      "children": [
+        {
+          "id": "platform-core-get-started",
+          "nav_title": "Get Started",
+          "page_title": "Get Started",
+          "kind": "header",
+          "path": "/docs/platform/core/get started/overview.md",
+          "description": "Learn what the `generaltranslation` core library does and when to use it directly.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-core-get-started-overview",
+              "nav_title": "Overview",
+              "page_title": "Overview",
+              "kind": "page",
+              "path": "/docs/platform/core/get started/overview.md",
+              "description": "Learn what the `generaltranslation` core library does and when to use it directly.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-core-get-started-quickstart",
+              "nav_title": "Quickstart",
+              "page_title": "Quickstart",
+              "kind": "page",
+              "path": "/docs/platform/core/get started/quickstart.md",
+              "description": "Install the `generaltranslation` core library, initialize the GT class, and translate your first string.",
+              "related": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "platform-core-guides",
+          "nav_title": "Guides",
+          "page_title": "Guides",
+          "kind": "header",
+          "path": "/docs/platform/core/guides/index.md",
+          "description": "Browse how-to Guides for using the General Translation Core library.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-core-guides-what-are-locales",
+              "nav_title": "What are locales?",
+              "page_title": "What are locales?",
+              "kind": "page",
+              "path": "/docs/platform/core/guides/locales.md",
+              "description": "Learn what locale codes are and how they're used in the General Translation stack.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-core-guides-translate-strings",
+              "nav_title": "Translate strings",
+              "page_title": "Translate strings",
+              "kind": "page",
+              "path": "/docs/platform/core/guides/translate-string.md",
+              "description": "Translate strings, batches of strings, and structured content directly from code.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-core-guides-translate-files",
+              "nav_title": "Translate files",
+              "page_title": "Translate files",
+              "kind": "page",
+              "path": "/docs/platform/core/guides/translate-file.md",
+              "description": "Upload a source file, enqueue translation, check status, and download the translated file with the `generaltranslation` library.",
+              "related": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "platform-core-reference",
+          "nav_title": "Reference",
+          "page_title": "Reference",
+          "kind": "header",
+          "path": "/docs/platform/core/reference/index.md",
+          "description": "Browse Reference pages for the General Translation Core library.",
+          "related": [],
+          "children": [
+            {
+              "id": "platform-core-reference-gt-class",
+              "nav_title": "GT Class",
+              "page_title": "GT Class",
+              "kind": "header",
+              "path": "/docs/platform/core/reference/gt-class/constructor.md",
+              "description": "Browse Core GT Class pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-core-reference-gt-class-constructor",
+                  "nav_title": "Constructor",
+                  "page_title": "Constructor",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/gt-class/constructor.md",
+                  "description": "Initialize a GT instance with API keys, project settings, default locales, and locale mappings. API reference for Constructor.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-gt-class-setconfig",
+                  "nav_title": "setConfig",
+                  "page_title": "setConfig",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/gt-class/set-config.md",
+                  "description": "Update configuration on an existing GT instance. API reference for setConfig.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "platform-core-reference-gt-class-methods",
+              "nav_title": "GT Class Methods",
+              "page_title": "GT Class Methods",
+              "kind": "header",
+              "path": "/docs/platform/core/reference/gt-class-methods/translation/translate.md",
+              "description": "Browse Core GT Class Methods pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-core-reference-gt-class-methods-translation",
+                  "nav_title": "Translation",
+                  "page_title": "Translation",
+                  "kind": "header",
+                  "path": "/docs/platform/core/reference/gt-class-methods/translation/translate.md",
+                  "description": "Browse Core Translation pages.",
+                  "related": [],
+                  "children": [
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-translate",
+                      "nav_title": "translate",
+                      "page_title": "translate",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/translate.md",
+                      "description": "Translate one string or structured content entry into a target locale. API reference for translate.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-translatemany",
+                      "nav_title": "translateMany",
+                      "page_title": "translateMany",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/translate-many.md",
+                      "description": "Translate multiple strings or structured content entries in one request. API reference for translateMany.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-uploadsourcefiles",
+                      "nav_title": "uploadSourceFiles",
+                      "page_title": "uploadSourceFiles",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/upload-source-files.md",
+                      "description": "Upload source files to a project before queueing translation. API reference for uploadSourceFiles.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-uploadtranslations",
+                      "nav_title": "uploadTranslations",
+                      "page_title": "uploadTranslations",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/upload-translations.md",
+                      "description": "Upload existing translated files that correspond to source files. API reference for uploadTranslations.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-enqueuefiles",
+                      "nav_title": "enqueueFiles",
+                      "page_title": "enqueueFiles",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/enqueue-files.md",
+                      "description": "Queue uploaded source files for translation into one or more target locales. API reference for enqueueFiles.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-awaitjobs",
+                      "nav_title": "awaitJobs",
+                      "page_title": "awaitJobs",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/await-jobs.md",
+                      "description": "Poll queued translation jobs until they complete, fail, or time out. API reference for awaitJobs.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-checkjobstatus",
+                      "nav_title": "checkJobStatus",
+                      "page_title": "checkJobStatus",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/check-job-status.md",
+                      "description": "Check the current status of a translation or setup job. API reference for checkJobStatus.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-queryfiledata",
+                      "nav_title": "queryFileData",
+                      "page_title": "queryFileData",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/query-file-data.md",
+                      "description": "Check translation status and metadata for uploaded or translated files. API reference for queryFileData.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-querysourcefile",
+                      "nav_title": "querySourceFile",
+                      "page_title": "querySourceFile",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/query-source-file.md",
+                      "description": "Retrieve source file metadata and related translation information. API reference for querySourceFile.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-downloadfile",
+                      "nav_title": "downloadFile",
+                      "page_title": "downloadFile",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/download-file.md",
+                      "description": "Download one translated file after translation is complete. API reference for downloadFile.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-downloadfilebatch",
+                      "nav_title": "downloadFileBatch",
+                      "page_title": "downloadFileBatch",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/download-file-batch.md",
+                      "description": "Download multiple translated files in one request. API reference for downloadFileBatch.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-setupproject",
+                      "nav_title": "setupProject",
+                      "page_title": "setupProject",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/setup-project.md",
+                      "description": "Prepare uploaded files for project translation workflows. API reference for setupProject.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-getprojectdata",
+                      "nav_title": "getProjectData",
+                      "page_title": "getProjectData",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/get-project-data.md",
+                      "description": "Read project-level metadata and translation configuration. API reference for getProjectData.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-translation-createtag",
+                      "nav_title": "createTag",
+                      "page_title": "createTag",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/translation/create-tag.md",
+                      "description": "Create a tag for grouping or identifying file versions. API reference for createTag.",
+                      "related": [],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "platform-core-reference-gt-class-methods-formatting",
+                  "nav_title": "Formatting",
+                  "page_title": "Formatting",
+                  "kind": "header",
+                  "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-num.md",
+                  "description": "Browse Core Formatting pages.",
+                  "related": [],
+                  "children": [
+                    {
+                      "id": "platform-core-reference-gt-class-methods-formatting-formatnum",
+                      "nav_title": "formatNum",
+                      "page_title": "formatNum",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-num.md",
+                      "description": "Format numbers, currency, percentages, and numeric values by locale. API reference for formatNum.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-formatting-formatdatetime",
+                      "nav_title": "formatDateTime",
+                      "page_title": "formatDateTime",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-date-time.md",
+                      "description": "Format dates and times by locale. API reference for formatDateTime.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-formatting-formatrelativetime",
+                      "nav_title": "formatRelativeTime",
+                      "page_title": "formatRelativeTime",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-relative-time.md",
+                      "description": "Format relative time values such as minutes ago or days from now. API reference for formatRelativeTime.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-formatting-formatrelativetimefromdate",
+                      "nav_title": "formatRelativeTimeFromDate",
+                      "page_title": "formatRelativeTimeFromDate",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-relative-time-from-date.md",
+                      "description": "Format relative time from a date compared with the current time or another date. API reference for formatRelativeTimeFromDate.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-formatting-formatmessage",
+                      "nav_title": "formatMessage",
+                      "page_title": "formatMessage",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-message.md",
+                      "description": "Format ICU-style messages with variables and locale-aware values. API reference for formatMessage.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-formatting-formatlisttoparts",
+                      "nav_title": "formatListToParts",
+                      "page_title": "formatListToParts",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-list-to-parts.md",
+                      "description": "Format a list into locale-aware parts for custom rendering. API reference for formatListToParts.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-formatting-formatcutoff",
+                      "nav_title": "formatCutoff",
+                      "page_title": "formatCutoff",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/formatting/format-cutoff.md",
+                      "description": "Truncate text with locale-aware cutoff characters and terminators. API reference for formatCutoff.",
+                      "related": [],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "platform-core-reference-gt-class-methods-locales",
+                  "nav_title": "Locales",
+                  "page_title": "Locales",
+                  "kind": "header",
+                  "path": "/docs/platform/core/reference/gt-class-methods/locales/determine-locale.md",
+                  "description": "Browse Core Locales pages.",
+                  "related": [],
+                  "children": [
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-determinelocale",
+                      "nav_title": "determineLocale",
+                      "page_title": "determineLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/determine-locale.md",
+                      "description": "Find the best matching locale from a list of approved locales. API reference for determineLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-getlocaledirection",
+                      "nav_title": "getLocaleDirection",
+                      "page_title": "getLocaleDirection",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/get-locale-direction.md",
+                      "description": "Return the text direction for a locale. API reference for getLocaleDirection.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-getlocaleemoji",
+                      "nav_title": "getLocaleEmoji",
+                      "page_title": "getLocaleEmoji",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/get-locale-emoji.md",
+                      "description": "Return an emoji marker for a locale or region. API reference for getLocaleEmoji.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-getlocalename",
+                      "nav_title": "getLocaleName",
+                      "page_title": "getLocaleName",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/get-locale-name.md",
+                      "description": "Return a human-readable locale name. API reference for getLocaleName.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-getlocaleproperties",
+                      "nav_title": "getLocaleProperties",
+                      "page_title": "getLocaleProperties",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/get-locale-properties.md",
+                      "description": "Return detailed language, script, region, and direction properties for a locale. API reference for getLocaleProperties.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-getregionproperties",
+                      "nav_title": "getRegionProperties",
+                      "page_title": "getRegionProperties",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/get-region-properties.md",
+                      "description": "Return region metadata for a locale or region code. API reference for getRegionProperties.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-isvalidlocale",
+                      "nav_title": "isValidLocale",
+                      "page_title": "isValidLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/is-valid-locale.md",
+                      "description": "Check whether a value is a valid locale code. API reference for isValidLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-issamelanguage",
+                      "nav_title": "isSameLanguage",
+                      "page_title": "isSameLanguage",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/is-same-language.md",
+                      "description": "Check whether two locales share the same base language. API reference for isSameLanguage.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-issamedialect",
+                      "nav_title": "isSameDialect",
+                      "page_title": "isSameDialect",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/is-same-dialect.md",
+                      "description": "Check whether two locales represent the same dialect. API reference for isSameDialect.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-issupersetlocale",
+                      "nav_title": "isSupersetLocale",
+                      "page_title": "isSupersetLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/is-superset-locale.md",
+                      "description": "Check whether one locale can represent another more specific locale. API reference for isSupersetLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-requirestranslation",
+                      "nav_title": "requiresTranslation",
+                      "page_title": "requiresTranslation",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/requires-translation.md",
+                      "description": "Check whether translation is needed between two locales. API reference for requiresTranslation.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-standardizelocale",
+                      "nav_title": "standardizeLocale",
+                      "page_title": "standardizeLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/standardize-locale.md",
+                      "description": "Normalize a locale code into a standard format. API reference for standardizeLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-gt-class-methods-locales-resolvealiaslocale",
+                      "nav_title": "resolveAliasLocale",
+                      "page_title": "resolveAliasLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/gt-class-methods/locales/resolve-alias-locale.md",
+                      "description": "Resolve a locale alias to the locale code used by a custom mapping. API reference for resolveAliasLocale.",
+                      "related": [],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "platform-core-reference-utility-functions",
+              "nav_title": "Utility functions",
+              "page_title": "Utility functions",
+              "kind": "header",
+              "path": "/docs/platform/core/reference/utility-functions/formatting/format-num.md",
+              "description": "Browse Core Utility functions pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-core-reference-utility-functions-formatting",
+                  "nav_title": "Formatting",
+                  "page_title": "Formatting",
+                  "kind": "header",
+                  "path": "/docs/platform/core/reference/utility-functions/formatting/format-num.md",
+                  "description": "Browse Core Formatting pages.",
+                  "related": [],
+                  "children": [
+                    {
+                      "id": "platform-core-reference-utility-functions-formatting-formatnum",
+                      "nav_title": "formatNum",
+                      "page_title": "formatNum",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/formatting/format-num.md",
+                      "description": "Format numbers, currency, percentages, and numeric values without a GT instance. API reference for formatNum.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-formatting-formatdatetime",
+                      "nav_title": "formatDateTime",
+                      "page_title": "formatDateTime",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/formatting/format-date-time.md",
+                      "description": "Format dates and times without a GT instance. API reference for formatDateTime.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-formatting-formatrelativetime",
+                      "nav_title": "formatRelativeTime",
+                      "page_title": "formatRelativeTime",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/formatting/format-relative-time.md",
+                      "description": "Format relative time values without a GT instance. API reference for formatRelativeTime.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-formatting-formatrelativetimefromdate",
+                      "nav_title": "formatRelativeTimeFromDate",
+                      "page_title": "formatRelativeTimeFromDate",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/formatting/format-relative-time-from-date.md",
+                      "description": "Format relative time from a date without a GT instance. API reference for formatRelativeTimeFromDate.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-formatting-formatmessage",
+                      "nav_title": "formatMessage",
+                      "page_title": "formatMessage",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/formatting/format-message.md",
+                      "description": "Format ICU-style messages without a GT instance. API reference for formatMessage.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-formatting-formatlisttoparts",
+                      "nav_title": "formatListToParts",
+                      "page_title": "formatListToParts",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/formatting/format-list-to-parts.md",
+                      "description": "Format a list into locale-aware parts without a GT instance. API reference for formatListToParts.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-formatting-formatcutoff",
+                      "nav_title": "formatCutoff",
+                      "page_title": "formatCutoff",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/formatting/format-cutoff.md",
+                      "description": "Truncate text with locale-aware cutoff characters without a GT instance. API reference for formatCutoff.",
+                      "related": [],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "platform-core-reference-utility-functions-locales",
+                  "nav_title": "Locales",
+                  "page_title": "Locales",
+                  "kind": "header",
+                  "path": "/docs/platform/core/reference/utility-functions/locales/determine-locale.md",
+                  "description": "Browse Core Locales pages.",
+                  "related": [],
+                  "children": [
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-determinelocale",
+                      "nav_title": "determineLocale",
+                      "page_title": "determineLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/determine-locale.md",
+                      "description": "Find the best matching locale without a GT instance. API reference for determineLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-getlocaledirection",
+                      "nav_title": "getLocaleDirection",
+                      "page_title": "getLocaleDirection",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/get-locale-direction.md",
+                      "description": "Return text direction for a locale without a GT instance. API reference for getLocaleDirection.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-getlocaleemoji",
+                      "nav_title": "getLocaleEmoji",
+                      "page_title": "getLocaleEmoji",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/get-locale-emoji.md",
+                      "description": "Return an emoji marker for a locale or region without a GT instance. API reference for getLocaleEmoji.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-getlocalename",
+                      "nav_title": "getLocaleName",
+                      "page_title": "getLocaleName",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/get-locale-name.md",
+                      "description": "Return a human-readable locale name without a GT instance. API reference for getLocaleName.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-getlocaleproperties",
+                      "nav_title": "getLocaleProperties",
+                      "page_title": "getLocaleProperties",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/get-locale-properties.md",
+                      "description": "Return detailed locale properties without a GT instance. API reference for getLocaleProperties.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-getregionproperties",
+                      "nav_title": "getRegionProperties",
+                      "page_title": "getRegionProperties",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/get-region-properties.md",
+                      "description": "Return region metadata without a GT instance. API reference for getRegionProperties.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-isvalidlocale",
+                      "nav_title": "isValidLocale",
+                      "page_title": "isValidLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/is-valid-locale.md",
+                      "description": "Check whether a value is a valid locale code without a GT instance. API reference for isValidLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-issamelanguage",
+                      "nav_title": "isSameLanguage",
+                      "page_title": "isSameLanguage",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/is-same-language.md",
+                      "description": "Check whether two locales share the same base language without a GT instance. API reference for isSameLanguage.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-issamedialect",
+                      "nav_title": "isSameDialect",
+                      "page_title": "isSameDialect",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/is-same-dialect.md",
+                      "description": "Check whether two locales represent the same dialect without a GT instance. API reference for isSameDialect.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-issupersetlocale",
+                      "nav_title": "isSupersetLocale",
+                      "page_title": "isSupersetLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/is-superset-locale.md",
+                      "description": "Check whether one locale can represent another more specific locale without a GT instance. API reference for isSupersetLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-requirestranslation",
+                      "nav_title": "requiresTranslation",
+                      "page_title": "requiresTranslation",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/requires-translation.md",
+                      "description": "Check whether translation is needed between two locales without a GT instance. API reference for requiresTranslation.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-standardizelocale",
+                      "nav_title": "standardizeLocale",
+                      "page_title": "standardizeLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/standardize-locale.md",
+                      "description": "Normalize a locale code into a standard format without a GT instance. API reference for standardizeLocale.",
+                      "related": [],
+                      "children": []
+                    },
+                    {
+                      "id": "platform-core-reference-utility-functions-locales-resolvealiaslocale",
+                      "nav_title": "resolveAliasLocale",
+                      "page_title": "resolveAliasLocale",
+                      "kind": "page",
+                      "path": "/docs/platform/core/reference/utility-functions/locales/resolve-alias-locale.md",
+                      "description": "Resolve a locale alias to the locale code used by a custom mapping without a GT instance. API reference for resolveAliasLocale.",
+                      "related": [],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "platform-core-reference-types",
+              "nav_title": "Types",
+              "page_title": "Types",
+              "kind": "header",
+              "path": "/docs/platform/core/reference/types/content.md",
+              "description": "Browse Core Types pages.",
+              "related": [],
+              "children": [
+                {
+                  "id": "platform-core-reference-types-content",
+                  "nav_title": "Content",
+                  "page_title": "Content",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/content.md",
+                  "description": "Supported content formats for translation. API reference for Content type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-custommapping",
+                  "nav_title": "CustomMapping",
+                  "page_title": "CustomMapping",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/custom-mapping.md",
+                  "description": "Custom locale mappings and locale property overrides. API reference for CustomMapping type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-dataformat",
+                  "nav_title": "DataFormat",
+                  "page_title": "DataFormat",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/data-format.md",
+                  "description": "Supported translation data format values. API reference for DataFormat type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-enqueuefilesoptions",
+                  "nav_title": "EnqueueFilesOptions",
+                  "page_title": "EnqueueFilesOptions",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/enqueue-files-options.md",
+                  "description": "Options for queueing uploaded files for translation. API reference for EnqueueFilesOptions type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-entrymetadata",
+                  "nav_title": "EntryMetadata",
+                  "page_title": "EntryMetadata",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/entry-metadata.md",
+                  "description": "Metadata for adding context to string translation entries. API reference for EntryMetadata type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-translatemanyentry",
+                  "nav_title": "TranslateManyEntry",
+                  "page_title": "TranslateManyEntry",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/translate-many-entry.md",
+                  "description": "Input shape for translate and translateMany entries. API reference for TranslateManyEntry type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-filetotranslate",
+                  "nav_title": "FileToTranslate",
+                  "page_title": "FileToTranslate",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/file-to-translate.md",
+                  "description": "File input structure for file translation workflows. API reference for FileToTranslate type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-gtconstructorparams",
+                  "nav_title": "GTConstructorParams",
+                  "page_title": "GTConstructorParams",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/gt-constructor-params.md",
+                  "description": "Configuration options accepted by the GT constructor. API reference for GTConstructorParams type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-jsxchildren",
+                  "nav_title": "JsxChildren",
+                  "page_title": "JsxChildren",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/jsx-children.md",
+                  "description": "JSX content structure for translatable children. API reference for JsxChildren type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-jsxelement",
+                  "nav_title": "JsxElement",
+                  "page_title": "JsxElement",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/jsx-element.md",
+                  "description": "Structured JSX-like element used in translatable content. API reference for JsxElement type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-localeproperties",
+                  "nav_title": "LocaleProperties",
+                  "page_title": "LocaleProperties",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/locale-properties.md",
+                  "description": "Language, script, region, and direction metadata for a locale. API reference for LocaleProperties type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-translatemanyresult",
+                  "nav_title": "TranslateManyResult",
+                  "page_title": "TranslateManyResult",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/translate-many-result.md",
+                  "description": "Result array returned by batch translation. API reference for TranslateManyResult type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-translationresult",
+                  "nav_title": "TranslationResult",
+                  "page_title": "TranslationResult",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/translation-result.md",
+                  "description": "Success or error result returned by translation methods. API reference for TranslationResult type.",
+                  "related": [],
+                  "children": []
+                },
+                {
+                  "id": "platform-core-reference-types-variable",
+                  "nav_title": "Variable",
+                  "page_title": "Variable",
+                  "kind": "page",
+                  "path": "/docs/platform/core/reference/types/variable.md",
+                  "description": "Placeholder for dynamic content in translatable messages. API reference for Variable type.",
+                  "related": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+---
+
+title: Get started with OpenAPI  
+description: Learn how to use the public General Translation API endpoints and the OpenAPI spec.
+
+---
+
+# Get started with the General Translation API
+
+Use the General Translation API to build custom automation workflows.
+
+The SDK and CLI handle most API calls for you. Call the API directly when you need to upload files, queue translation jobs, download translations, manage branches and tags, or inspect project and job status from your own system. 
+
+The OpenAPI spec defines these endpoints in machine-readable format.
+
+## API basics
+
+### Base URLs
+
+- Use `https://api.gtx.dev` for project and file endpoints.
+- Use `https://runtime.gtx.dev` for runtime translation, including `POST /v2/translate`.
+
+
+
+### Authentication
+
+Send your API key in the `x-gt-api-key` header.
+
+```bash
+curl https://api.gtx.dev/v2/project/info/PROJECT_ID \
+  -H "x-gt-api-key: gtx-api-..."
+```
+
+Use the correct key type:
+
+- **Project (development)** with prefix `gtx-api-`: for local and preview use, rejected by production-only endpoints
+- **Project (production)** with prefix `gtx-dev-`: bound to one project
+- **Organization** with prefix `gtx-org-`: works across projects. When using an organization key on project-scoped endpoints, must send `x-gt-project-id`.
+
+See [API keys](/docs/platform/dashboard/reference/api-keys) for how to create and scope API keys.
+
+### Permissions
+
+Each endpoint requires a permission on the API key. Organization keys configure permissions explicitly. Project keys use the project defaults.
+
+Common permissions:
+
+- `project:files:read` for downloading files, reading file info, translation status, branch info, orphaned files, project info, and job info.
+- `project:files:write` for uploading files and translations, diffs, publishing, creating branches and tags, and moving files.
+- `project:translations:enqueue` for queuing files for translation.
+- `project:translations:generate` for runtime translation.
+- `project:context:read` for reading context generation status.
+- `project:context:write` for generating context.
+- `project:write` for updating project settings.
+
+
+
+### Versioning
+
+Send the optional `gt-api-version` header to pin a response format. 
+
+```bash
+-H "gt-api-version: 2026-03-06.v1"
+```
+
+If you omit the header, the earliest supported version is used. The latest version is `2026-03-06.v1`.
+
+### Rate limits
+
+Requests are rate limited per API key or client IP over a 60-second window. Limits vary by endpoint:
+
+- **Heavy:** 20 requests/minute for queueing translations.
+- **Medium:** 60 requests/minute for uploads, diffs, context, moves, and orphaned files.
+- **Light:** 120 requests/minute for file downloads.
+- **Default:** 200 requests/minute for publish, branches, tags, project info, job info, file info, translation status, and runtime translation.
+
+Exceeding a limit returns `429`. Organization token quotas can also return `429` from `POST /v2/translate`.
+
+### Errors
+
+Errors return a JSON body with an `error` message:
+
+```json
+{
+  "error": "API key is missing required permission: project:files:write"
+}
+```
+
+Common status codes:
+
+- `400` for invalid request body, query, or version.
+- `401` for missing or invalid API key.
+- `403` when the API key lacks permission or the action is not allowed on the current plan.
+- `404` when the resource is not found.
+- `429` when a rate limit or token quota is exceeded.
+
+
+
+## Reference sections
+
+- [Files](/docs/platform/openapi/reference/files) - Uploading, downloading, moving, publishing, and inspecting files.
+- [Context](/docs/platform/openapi/reference/context) - Generating translation context and checking context job status.
+- [Translation](/docs/platform/openapi/reference/translation) - Queuing files and translating content at runtime.
+- [Jobs](/docs/platform/openapi/reference/jobs) - Retrieving translation job status.
+- [Branches](/docs/platform/openapi/reference/branches) - Creating, renaming, and inspecting branches.
+- [Tags](/docs/platform/openapi/reference/tags) - Creating or upserting tags on file versions.
+- [Project](/docs/platform/openapi/reference/project) - Reading and updating project information.
+
+
+
+## OpenAPI spec
+
+A machine-readable OpenAPI 3.1 spec is available as `openapi.yaml`. Import it into Postman, Insomnia, or an OpenAPI client to generate requests and types.

@@ -1,0 +1,38 @@
+---
+
+title: Manage languages
+description: Choose the source locale and target languages Locadex uses for translation workflows.
+
+---
+
+# Manage languages
+
+Use languages to tell Locadex what your source content is written in and what languages it should translate into.
+
+## Open language settings
+
+On the Dashboard, open **Locadex > Agent**. In the Languages section, click **Edit**.
+
+## Choose a source locale
+
+Choose or edit the language your source content is written in. Most English projects use `English` as the source locale.
+
+## Choose target languages
+
+Choose the languages Locadex should translate into. You can select target languages from all 120 General Translation supported locales. Read more about locales at [What are locales?](/docs/platform/core/guides/locales) and [General Translation supported locales.](/docs/platform/dashboard/reference/supported-locales)
+
+## Save changes
+
+Saving language changes creates a pull request to update the locale configuration in your repository.
+
+Review and merge the pull request to apply the language change.
+
+## When to update languages
+
+Update languages when you need to:
+
+- Add a new target language.
+- Remove a target language.
+- Change the source locale.
+- Sync locale configuration after changing project requirements.
+

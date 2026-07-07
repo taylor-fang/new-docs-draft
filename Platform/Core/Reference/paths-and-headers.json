@@ -1,0 +1,401 @@
+{
+  "section": "Reference",
+  "page_count": 70,
+  "headers": [
+    {
+      "title": "GT Class",
+      "pages": [
+        {
+          "title": "Constructor",
+          "path": "core/reference/gt-class/constructor.md",
+          "description": "Initialize a GT instance with API keys, project settings, default locales, and locale mappings. API reference for Constructor."
+        },
+        {
+          "title": "setConfig",
+          "path": "core/reference/gt-class/set-config.md",
+          "description": "Update configuration on an existing GT instance. API reference for setConfig."
+        }
+      ]
+    },
+    {
+      "title": "GT Class Methods",
+      "headers": [
+        {
+          "title": "Translation",
+          "pages": [
+            {
+              "title": "translate",
+              "path": "core/reference/gt-class-methods/translation/translate.md",
+              "description": "Translate one string or structured content entry into a target locale. API reference for translate."
+            },
+            {
+              "title": "translateMany",
+              "path": "core/reference/gt-class-methods/translation/translate-many.md",
+              "description": "Translate multiple strings or structured content entries in one request. API reference for translateMany."
+            },
+            {
+              "title": "uploadSourceFiles",
+              "path": "core/reference/gt-class-methods/translation/upload-source-files.md",
+              "description": "Upload source files to a project before queueing translation. API reference for uploadSourceFiles."
+            },
+            {
+              "title": "uploadTranslations",
+              "path": "core/reference/gt-class-methods/translation/upload-translations.md",
+              "description": "Upload existing translated files that correspond to source files. API reference for uploadTranslations."
+            },
+            {
+              "title": "enqueueFiles",
+              "path": "core/reference/gt-class-methods/translation/enqueue-files.md",
+              "description": "Queue uploaded source files for translation into one or more target locales. API reference for enqueueFiles."
+            },
+            {
+              "title": "awaitJobs",
+              "path": "core/reference/gt-class-methods/translation/await-jobs.md",
+              "description": "Poll queued translation jobs until they complete, fail, or time out. API reference for awaitJobs."
+            },
+            {
+              "title": "checkJobStatus",
+              "path": "core/reference/gt-class-methods/translation/check-job-status.md",
+              "description": "Check the current status of a translation or setup job. API reference for checkJobStatus."
+            },
+            {
+              "title": "queryFileData",
+              "path": "core/reference/gt-class-methods/translation/query-file-data.md",
+              "description": "Check translation status and metadata for uploaded or translated files. API reference for queryFileData."
+            },
+            {
+              "title": "querySourceFile",
+              "path": "core/reference/gt-class-methods/translation/query-source-file.md",
+              "description": "Retrieve source file metadata and related translation information. API reference for querySourceFile."
+            },
+            {
+              "title": "downloadFile",
+              "path": "core/reference/gt-class-methods/translation/download-file.md",
+              "description": "Download one translated file after translation is complete. API reference for downloadFile."
+            },
+            {
+              "title": "downloadFileBatch",
+              "path": "core/reference/gt-class-methods/translation/download-file-batch.md",
+              "description": "Download multiple translated files in one request. API reference for downloadFileBatch."
+            },
+            {
+              "title": "setupProject",
+              "path": "core/reference/gt-class-methods/translation/setup-project.md",
+              "description": "Prepare uploaded files for project translation workflows. API reference for setupProject."
+            },
+            {
+              "title": "getProjectData",
+              "path": "core/reference/gt-class-methods/translation/get-project-data.md",
+              "description": "Read project-level metadata and translation configuration. API reference for getProjectData."
+            },
+            {
+              "title": "createTag",
+              "path": "core/reference/gt-class-methods/translation/create-tag.md",
+              "description": "Create a tag for grouping or identifying file versions. API reference for createTag."
+            }
+          ]
+        },
+        {
+          "title": "Formatting",
+          "pages": [
+            {
+              "title": "formatNum",
+              "path": "core/reference/gt-class-methods/formatting/format-num.md",
+              "description": "Format numbers, currency, percentages, and numeric values by locale. API reference for formatNum."
+            },
+            {
+              "title": "formatDateTime",
+              "path": "core/reference/gt-class-methods/formatting/format-date-time.md",
+              "description": "Format dates and times by locale. API reference for formatDateTime."
+            },
+            {
+              "title": "formatRelativeTime",
+              "path": "core/reference/gt-class-methods/formatting/format-relative-time.md",
+              "description": "Format relative time values such as minutes ago or days from now. API reference for formatRelativeTime."
+            },
+            {
+              "title": "formatRelativeTimeFromDate",
+              "path": "core/reference/gt-class-methods/formatting/format-relative-time-from-date.md",
+              "description": "Format relative time from a date compared with the current time or another date. API reference for formatRelativeTimeFromDate."
+            },
+            {
+              "title": "formatMessage",
+              "path": "core/reference/gt-class-methods/formatting/format-message.md",
+              "description": "Format ICU-style messages with variables and locale-aware values. API reference for formatMessage."
+            },
+            {
+              "title": "formatListToParts",
+              "path": "core/reference/gt-class-methods/formatting/format-list-to-parts.md",
+              "description": "Format a list into locale-aware parts for custom rendering. API reference for formatListToParts."
+            },
+            {
+              "title": "formatCutoff",
+              "path": "core/reference/gt-class-methods/formatting/format-cutoff.md",
+              "description": "Truncate text with locale-aware cutoff characters and terminators. API reference for formatCutoff."
+            }
+          ]
+        },
+        {
+          "title": "Locales",
+          "pages": [
+            {
+              "title": "determineLocale",
+              "path": "core/reference/gt-class-methods/locales/determine-locale.md",
+              "description": "Find the best matching locale from a list of approved locales. API reference for determineLocale."
+            },
+            {
+              "title": "getLocaleDirection",
+              "path": "core/reference/gt-class-methods/locales/get-locale-direction.md",
+              "description": "Return the text direction for a locale. API reference for getLocaleDirection."
+            },
+            {
+              "title": "getLocaleEmoji",
+              "path": "core/reference/gt-class-methods/locales/get-locale-emoji.md",
+              "description": "Return an emoji marker for a locale or region. API reference for getLocaleEmoji."
+            },
+            {
+              "title": "getLocaleName",
+              "path": "core/reference/gt-class-methods/locales/get-locale-name.md",
+              "description": "Return a human-readable locale name. API reference for getLocaleName."
+            },
+            {
+              "title": "getLocaleProperties",
+              "path": "core/reference/gt-class-methods/locales/get-locale-properties.md",
+              "description": "Return detailed language, script, region, and direction properties for a locale. API reference for getLocaleProperties."
+            },
+            {
+              "title": "getRegionProperties",
+              "path": "core/reference/gt-class-methods/locales/get-region-properties.md",
+              "description": "Return region metadata for a locale or region code. API reference for getRegionProperties."
+            },
+            {
+              "title": "isValidLocale",
+              "path": "core/reference/gt-class-methods/locales/is-valid-locale.md",
+              "description": "Check whether a value is a valid locale code. API reference for isValidLocale."
+            },
+            {
+              "title": "isSameLanguage",
+              "path": "core/reference/gt-class-methods/locales/is-same-language.md",
+              "description": "Check whether two locales share the same base language. API reference for isSameLanguage."
+            },
+            {
+              "title": "isSameDialect",
+              "path": "core/reference/gt-class-methods/locales/is-same-dialect.md",
+              "description": "Check whether two locales represent the same dialect. API reference for isSameDialect."
+            },
+            {
+              "title": "isSupersetLocale",
+              "path": "core/reference/gt-class-methods/locales/is-superset-locale.md",
+              "description": "Check whether one locale can represent another more specific locale. API reference for isSupersetLocale."
+            },
+            {
+              "title": "requiresTranslation",
+              "path": "core/reference/gt-class-methods/locales/requires-translation.md",
+              "description": "Check whether translation is needed between two locales. API reference for requiresTranslation."
+            },
+            {
+              "title": "standardizeLocale",
+              "path": "core/reference/gt-class-methods/locales/standardize-locale.md",
+              "description": "Normalize a locale code into a standard format. API reference for standardizeLocale."
+            },
+            {
+              "title": "resolveAliasLocale",
+              "path": "core/reference/gt-class-methods/locales/resolve-alias-locale.md",
+              "description": "Resolve a locale alias to the locale code used by a custom mapping. API reference for resolveAliasLocale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Utility functions",
+      "headers": [
+        {
+          "title": "Formatting",
+          "pages": [
+            {
+              "title": "formatNum",
+              "path": "core/reference/utility-functions/formatting/format-num.md",
+              "description": "Format numbers, currency, percentages, and numeric values without a GT instance. API reference for formatNum."
+            },
+            {
+              "title": "formatDateTime",
+              "path": "core/reference/utility-functions/formatting/format-date-time.md",
+              "description": "Format dates and times without a GT instance. API reference for formatDateTime."
+            },
+            {
+              "title": "formatRelativeTime",
+              "path": "core/reference/utility-functions/formatting/format-relative-time.md",
+              "description": "Format relative time values without a GT instance. API reference for formatRelativeTime."
+            },
+            {
+              "title": "formatRelativeTimeFromDate",
+              "path": "core/reference/utility-functions/formatting/format-relative-time-from-date.md",
+              "description": "Format relative time from a date without a GT instance. API reference for formatRelativeTimeFromDate."
+            },
+            {
+              "title": "formatMessage",
+              "path": "core/reference/utility-functions/formatting/format-message.md",
+              "description": "Format ICU-style messages without a GT instance. API reference for formatMessage."
+            },
+            {
+              "title": "formatListToParts",
+              "path": "core/reference/utility-functions/formatting/format-list-to-parts.md",
+              "description": "Format a list into locale-aware parts without a GT instance. API reference for formatListToParts."
+            },
+            {
+              "title": "formatCutoff",
+              "path": "core/reference/utility-functions/formatting/format-cutoff.md",
+              "description": "Truncate text with locale-aware cutoff characters without a GT instance. API reference for formatCutoff."
+            }
+          ]
+        },
+        {
+          "title": "Locales",
+          "pages": [
+            {
+              "title": "determineLocale",
+              "path": "core/reference/utility-functions/locales/determine-locale.md",
+              "description": "Find the best matching locale without a GT instance. API reference for determineLocale."
+            },
+            {
+              "title": "getLocaleDirection",
+              "path": "core/reference/utility-functions/locales/get-locale-direction.md",
+              "description": "Return text direction for a locale without a GT instance. API reference for getLocaleDirection."
+            },
+            {
+              "title": "getLocaleEmoji",
+              "path": "core/reference/utility-functions/locales/get-locale-emoji.md",
+              "description": "Return an emoji marker for a locale or region without a GT instance. API reference for getLocaleEmoji."
+            },
+            {
+              "title": "getLocaleName",
+              "path": "core/reference/utility-functions/locales/get-locale-name.md",
+              "description": "Return a human-readable locale name without a GT instance. API reference for getLocaleName."
+            },
+            {
+              "title": "getLocaleProperties",
+              "path": "core/reference/utility-functions/locales/get-locale-properties.md",
+              "description": "Return detailed locale properties without a GT instance. API reference for getLocaleProperties."
+            },
+            {
+              "title": "getRegionProperties",
+              "path": "core/reference/utility-functions/locales/get-region-properties.md",
+              "description": "Return region metadata without a GT instance. API reference for getRegionProperties."
+            },
+            {
+              "title": "isValidLocale",
+              "path": "core/reference/utility-functions/locales/is-valid-locale.md",
+              "description": "Check whether a value is a valid locale code without a GT instance. API reference for isValidLocale."
+            },
+            {
+              "title": "isSameLanguage",
+              "path": "core/reference/utility-functions/locales/is-same-language.md",
+              "description": "Check whether two locales share the same base language without a GT instance. API reference for isSameLanguage."
+            },
+            {
+              "title": "isSameDialect",
+              "path": "core/reference/utility-functions/locales/is-same-dialect.md",
+              "description": "Check whether two locales represent the same dialect without a GT instance. API reference for isSameDialect."
+            },
+            {
+              "title": "isSupersetLocale",
+              "path": "core/reference/utility-functions/locales/is-superset-locale.md",
+              "description": "Check whether one locale can represent another more specific locale without a GT instance. API reference for isSupersetLocale."
+            },
+            {
+              "title": "requiresTranslation",
+              "path": "core/reference/utility-functions/locales/requires-translation.md",
+              "description": "Check whether translation is needed between two locales without a GT instance. API reference for requiresTranslation."
+            },
+            {
+              "title": "standardizeLocale",
+              "path": "core/reference/utility-functions/locales/standardize-locale.md",
+              "description": "Normalize a locale code into a standard format without a GT instance. API reference for standardizeLocale."
+            },
+            {
+              "title": "resolveAliasLocale",
+              "path": "core/reference/utility-functions/locales/resolve-alias-locale.md",
+              "description": "Resolve a locale alias to the locale code used by a custom mapping without a GT instance. API reference for resolveAliasLocale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Types",
+      "pages": [
+        {
+          "title": "Content",
+          "path": "core/reference/types/content.md",
+          "description": "Supported content formats for translation. API reference for Content type."
+        },
+        {
+          "title": "CustomMapping",
+          "path": "core/reference/types/custom-mapping.md",
+          "description": "Custom locale mappings and locale property overrides. API reference for CustomMapping type."
+        },
+        {
+          "title": "DataFormat",
+          "path": "core/reference/types/data-format.md",
+          "description": "Supported translation data format values. API reference for DataFormat type."
+        },
+        {
+          "title": "EnqueueFilesOptions",
+          "path": "core/reference/types/enqueue-files-options.md",
+          "description": "Options for queueing uploaded files for translation. API reference for EnqueueFilesOptions type."
+        },
+        {
+          "title": "EntryMetadata",
+          "path": "core/reference/types/entry-metadata.md",
+          "description": "Metadata for adding context to string translation entries. API reference for EntryMetadata type."
+        },
+        {
+          "title": "TranslateManyEntry",
+          "path": "core/reference/types/translate-many-entry.md",
+          "description": "Input shape for translate and translateMany entries. API reference for TranslateManyEntry type."
+        },
+        {
+          "title": "FileToTranslate",
+          "path": "core/reference/types/file-to-translate.md",
+          "description": "File input structure for file translation workflows. API reference for FileToTranslate type."
+        },
+        {
+          "title": "GTConstructorParams",
+          "path": "core/reference/types/gt-constructor-params.md",
+          "description": "Configuration options accepted by the GT constructor. API reference for GTConstructorParams type."
+        },
+        {
+          "title": "JsxChildren",
+          "path": "core/reference/types/jsx-children.md",
+          "description": "JSX content structure for translatable children. API reference for JsxChildren type."
+        },
+        {
+          "title": "JsxElement",
+          "path": "core/reference/types/jsx-element.md",
+          "description": "Structured JSX-like element used in translatable content. API reference for JsxElement type."
+        },
+        {
+          "title": "LocaleProperties",
+          "path": "core/reference/types/locale-properties.md",
+          "description": "Language, script, region, and direction metadata for a locale. API reference for LocaleProperties type."
+        },
+        {
+          "title": "TranslateManyResult",
+          "path": "core/reference/types/translate-many-result.md",
+          "description": "Result array returned by batch translation. API reference for TranslateManyResult type."
+        },
+        {
+          "title": "TranslationResult",
+          "path": "core/reference/types/translation-result.md",
+          "description": "Success or error result returned by translation methods. API reference for TranslationResult type."
+        },
+        {
+          "title": "Variable",
+          "path": "core/reference/types/variable.md",
+          "description": "Placeholder for dynamic content in translatable messages. API reference for Variable type."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+---
+
+title: Use Locadex in a monorepo  
+description: Use Locadex within a monorepo by configuring the app root directory and commands
+
+---
+
+# Use Locadex in a monorepo
+
+If your project uses a monorepo, tell Locadex which folder contains the app you want to localize. You can set this app directory in the Locadex settings on the dashboard.
+
+## Set the app root directory
+
+Use the app root directory when your GitHub repository contains multiple apps or packages. Configure at Locadex setup or in Settings. Open **Locadex > Configuration > General**.
+
+Set **App Root Directory** to the path from the repository root to your app. Use `.` or leave the field empty only when the app is at the repository root.
+
+## Configure commands
+
+Workflow commands run from the repository root.
+
+If a command needs to run inside the app directory, include the directory change in the command or use your package manager workspace command.
+
+For example:
+
+```bash
+cd locadex-lab && npm run build
+```
+

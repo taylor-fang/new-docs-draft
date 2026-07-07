@@ -1,0 +1,160 @@
+{
+  "section": "OpenAPI",
+  "sections": [
+    {
+      "title": "Get Started",
+      "pages": [
+        {
+          "title": "Get started with the API",
+          "path": "openapi/getstarted/index.md",
+          "description": "Learn when to call the General Translation API directly, how authentication works, and how to use the OpenAPI spec."
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "groups": [
+        {
+          "title": "Files",
+          "pages": [
+            {
+              "title": "Upload source files",
+              "path": "openapi/reference/files/upload-source.md",
+              "description": "Upload one or more source files to a project before queuing translation."
+            },
+            {
+              "title": "Upload translations",
+              "path": "openapi/reference/files/upload-translations.md",
+              "description": "Upload translated files that match previously uploaded source files."
+            },
+            {
+              "title": "Submit file diffs",
+              "path": "openapi/reference/files/submit-diffs.md",
+              "description": "Submit diffs for changed source or translated content instead of uploading full files."
+            },
+            {
+              "title": "Download files",
+              "path": "openapi/reference/files/download-many.md",
+              "description": "Download multiple translated files in one request."
+            },
+            {
+              "title": "Download file",
+              "path": "openapi/reference/files/download.md",
+              "description": "Download a single translated file for a project, locale, or version."
+            },
+            {
+              "title": "Publish files",
+              "path": "openapi/reference/files/publish-files.md",
+              "description": "Mark translated files as published so they are ready for delivery."
+            },
+            {
+              "title": "Get file information",
+              "path": "openapi/reference/files/file-info.md",
+              "description": "Inspect source file metadata, versions, locales, and translation state."
+            },
+            {
+              "title": "Get translation status",
+              "path": "openapi/reference/files/translation-status.md",
+              "description": "Check translation progress and availability by file and locale."
+            },
+            {
+              "title": "Move files",
+              "path": "openapi/reference/files/move-files.md",
+              "description": "Move or rename files in a project."
+            },
+            {
+              "title": "Get orphaned files",
+              "path": "openapi/reference/files/orphaned-files.md",
+              "description": "Find translated files that are no longer connected to current source files."
+            }
+          ]
+        },
+        {
+          "title": "Context",
+          "pages": [
+            {
+              "title": "Generate translation context",
+              "path": "openapi/reference/context/generate-context.md",
+              "description": "Generate project glossary terms and translation instructions from source files."
+            },
+            {
+              "title": "Check context freshness",
+              "path": "openapi/reference/context/check-freshness.md",
+              "description": "Check whether project context is missing, stale, or ready to refresh."
+            },
+            {
+              "title": "Get context generation status",
+              "path": "openapi/reference/context/context-status.md",
+              "description": "Track the status of a context generation job."
+            }
+          ]
+        },
+        {
+          "title": "Translation",
+          "pages": [
+            {
+              "title": "Translate content at runtime",
+              "path": "openapi/reference/translation/translate-runtime.md",
+              "description": "Translate strings or structured content directly from an application or service."
+            },
+            {
+              "title": "Queue translations",
+              "path": "openapi/reference/translation/queue.md",
+              "description": "Queue uploaded source files for background translation."
+            }
+          ]
+        },
+        {
+          "title": "Jobs",
+          "pages": [
+            {
+              "title": "Get translation job status",
+              "path": "openapi/reference/jobs/status.md",
+              "description": "Retrieve status for a queued translation job."
+            }
+          ]
+        },
+        {
+          "title": "Branches",
+          "pages": [
+            {
+              "title": "Get branch information",
+              "path": "openapi/reference/branches/branch-info.md",
+              "description": "Inspect branch metadata and project branch state."
+            },
+            {
+              "title": "Create a branch",
+              "path": "openapi/reference/branches/create-branch.md",
+              "description": "Create a branch, or rename and confirm the default branch."
+            }
+          ]
+        },
+        {
+          "title": "Tags",
+          "pages": [
+            {
+              "title": "Create or update tag",
+              "path": "openapi/reference/tags/upsert-tag.md",
+              "description": "Create or update a tag on file versions for release tracking."
+            }
+          ]
+        },
+        {
+          "title": "Project",
+          "pages": [
+            {
+              "title": "Get project information",
+              "path": "openapi/reference/project/project-info.md",
+              "description": "Read project metadata, settings, and configuration details."
+            },
+            {
+              "title": "Update project information",
+              "path": "openapi/reference/project/update-project.md",
+              "description": "Update project-level settings from automation."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
