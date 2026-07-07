@@ -13,7 +13,7 @@ Environment variables are injected into the sandbox when Locadex runs workflows.
 
 ## Add a variable
 
-In your project sidebar, open **Locadex > Configuration > Secrets**. Click **Add Variable**.
+In your Project sidebar, open **Locadex > Configuration > Secrets**. Click **Add Variable**.
 
 Enter:
 

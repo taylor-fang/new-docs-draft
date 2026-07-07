@@ -8,7 +8,7 @@ description: Use Context Groups with Glossary (key terms) and Directives (tone a
 
 # Guide translations with context and key terms
 
-Define how your product should be translated, including **terminology and style** that should stay consistent across projects and across your whole organization. 
+Define how your product should be translated, including **terminology and style** that should stay consistent across Projects and across your whole Organization. 
 
 General Translation applies reusable translation instructions through Context Groups.
 
@@ -18,7 +18,7 @@ General Translation applies reusable translation instructions through Context Gr
 2. Go to the **Context** page.
 3. Create a **Context Group**.
 4. Add a **Glossary** (for terminology) and/or **Directives** (for style and tone).
-5. **Assign** your Context Group to relevant project(s).
+5. **Assign** your Context Group to relevant Project(s).
 6. Generate translations or apply updates to existing translations.
 
 
@@ -67,12 +67,12 @@ You can create a Context Group from your Organization page or from a specific Pr
 
 *Use the Organization-level flow when you want to create a shared group first, then assign it to one or more Projects.*
 
-1. Open **Context** in the organization sidebar.
+1. Open **Context** in the Organization sidebar.
 2. Click the plus sign and **Create new group**.
 3. Enter name and confirm.
 4. Add relevant **Glossary** terms and **Directives**.
-5. Open each relevant project.
-6. Assign the group from the project's **Context** tab.
+5. Open each relevant Project.
+6. Assign the group from the Project's **Context** tab.
 7. Use the **Translate** button to use AI to generate translations for Glossary terms for each target locale.
 
 Context Groups are applied every time AI generates translations, including Locadex processing.
@@ -81,19 +81,19 @@ Context Groups are applied every time AI generates translations, including Locad
 
 *Use the Project-level flow when you are already working in a Project and want the group assigned there immediately.*
 
-1. Open **Context** in the project sidebar.
+1. Open **Context** in the Project sidebar.
 2. Click the plus sign and **Create new group**.
-3. Enter name and confirm. Select the checkbox to **Autogenerate context** from your project files.
+3. Enter name and confirm. Select the checkbox to **Autogenerate context** from your Project files.
 4. Add relevant **Glossary** terms and **Directives**.
 5. Use the **Translate** button to use AI to generate translations for Glossary terms for each target locale.
 
-When you create a Context Group from a project, it is still created at the organization level. GT automatically assigns it to the current project. 
+When you create a Context Group from a Project, it is still created at the Organization level. GT automatically assigns it to the current Project. 
 
 ### c) Import or export existing Context Group
 
 *Use the import/export flow to manage existing Context Groups.*
 
-In most cases, you should directly assign or reassign projects to Context Groups.
+In most cases, you should directly assign or reassign Projects to Context Groups.
 
 However, for major changes, you can also use **Export** to download a group's Glossary and Directives. Then use **Import** to fill an empty Glossary and Directive fields from a supported file. 
 
@@ -108,12 +108,12 @@ When a Project has multiple assigned groups, context priority determines which g
 
 ## Generate Glossary translations
 
-Use the **Translate** button on the project **Context** page to generate AI translations for your Glossary terms in each target locale.
+Use the **Translate** button on the Project **Context** page to generate AI translations for your Glossary terms in each target locale.
 
 ## Apply Glossary translations
 
 *Editing a Context Group will apply for all new translations but does not automatically update existing translations.*
 
-Use the **Apply** button on the project **Context** page to update existing translated content with selected Glossary terms and locales.
+Use the **Apply** button on the Project **Context** page to update existing translated content with selected Glossary terms and locales.
 
 For full retranslation of a file instead, use the [CLI](/docs/cli/get-started) or run [Locadex](/docs/platform/locadex/get-started) translation.

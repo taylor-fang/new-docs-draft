@@ -7,7 +7,7 @@ description: Use Locadex within a monorepo by configuring the app root directory
 
 # Use Locadex in a monorepo
 
-If your project uses a monorepo, tell Locadex which folder contains the app you want to localize. You can set this app directory in the Locadex settings on the dashboard.
+If your Project uses a monorepo, tell Locadex which folder contains the app you want to localize. You can set this app directory in the Locadex settings on the Dashboard.
 
 ## Set the app root directory
 

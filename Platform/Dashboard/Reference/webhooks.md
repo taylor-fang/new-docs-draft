@@ -11,7 +11,7 @@ Webhooks send translation events to your backend as signed HTTP POST requests. U
 
 ## Create a webhook
 
-1. Go to **Organization Settings -> Webhooks**.
+1. Go to **Organization Settings > Webhooks**.
 2. Click **Create Webhook**.
 3. Enter the endpoint URL where you want to receive events. The URL must use HTTPS.
 4. Select the event types you want to subscribe to.
@@ -19,7 +19,7 @@ Webhooks send translation events to your backend as signed HTTP POST requests. U
 
 After creating the endpoint, open the webhook detail page and copy the signing secret. Use this secret to verify that incoming requests are from General Translation.
 
-You can create up to **5 webhook endpoints** per organization.
+You can create up to **5 webhook endpoints** per Organization.
 
 ## Event types
 

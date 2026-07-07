@@ -82,7 +82,7 @@
               "page_title": "API keys",
               "kind": "page",
               "path": "/docs/platform/dashboard/reference/api-keys.md",
-              "description": "Create and manage project and organization API keys for apps, local development, and automation.",
+              "description": "Create and manage Project and Organization API keys for apps, local development, and automation.",
               "related": [],
               "children": []
             },
@@ -112,7 +112,7 @@
               "page_title": "Organization settings",
               "kind": "page",
               "path": "/docs/platform/dashboard/reference/organization-settings.md",
-              "description": "Manage organization members, roles, invitations, and default settings.",
+              "description": "Manage Organization members, roles, invitations, and default settings.",
               "related": [],
               "children": []
             },
@@ -122,7 +122,7 @@
               "page_title": "Roles and permissions",
               "kind": "page",
               "path": "/docs/platform/dashboard/reference/roles-and-permissions.md",
-              "description": "Understand the default organization roles, permission categories, and how permissions inherit across enterprises, organizations, and projects.",
+              "description": "Understand the default Organization roles, permission categories, and how permissions inherit across Enterprises, Organizations, and Projects.",
               "related": [],
               "children": []
             },
@@ -132,7 +132,7 @@
               "page_title": "Project settings",
               "kind": "page",
               "path": "/docs/platform/dashboard/reference/project-settings.md",
-              "description": "Project settings control how an individual project appears and how its translations are delivered.",
+              "description": "Project settings control how an individual Project appears and how its translations are delivered.",
               "related": [],
               "children": []
             },
@@ -326,7 +326,7 @@
                   "page_title": "Upload source files",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/upload-source.md",
-                  "description": "Upload one or more source files to a project before queuing translation.",
+                  "description": "Upload one or more source files to a Project before queuing translation. API reference for Upload source files.",
                   "related": [],
                   "children": []
                 },
@@ -336,7 +336,7 @@
                   "page_title": "Upload translations",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/upload-translations.md",
-                  "description": "Upload translated files that match previously uploaded source files.",
+                  "description": "Upload translated files that match previously uploaded source files. API reference for Upload translations.",
                   "related": [],
                   "children": []
                 },
@@ -346,7 +346,7 @@
                   "page_title": "Submit file diffs",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/submit-diffs.md",
-                  "description": "Submit diffs for changed source or translated content instead of uploading full files.",
+                  "description": "Submit diffs for changed source or translated content instead of uploading full files. API reference for Submit file diffs.",
                   "related": [],
                   "children": []
                 },
@@ -356,7 +356,7 @@
                   "page_title": "Download files",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/download-many.md",
-                  "description": "Download multiple translated files in one request.",
+                  "description": "Download multiple translated files in one request. API reference for Download files.",
                   "related": [],
                   "children": []
                 },
@@ -366,7 +366,7 @@
                   "page_title": "Download file",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/download.md",
-                  "description": "Download a single translated file for a project, locale, or version.",
+                  "description": "Download a single translated file for a Project, locale, or version. API reference for Download file.",
                   "related": [],
                   "children": []
                 },
@@ -376,7 +376,7 @@
                   "page_title": "Publish files",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/publish-files.md",
-                  "description": "Mark translated files as published so they are ready for delivery.",
+                  "description": "Mark translated files as published so they are ready for delivery. API reference for Publish files.",
                   "related": [],
                   "children": []
                 },
@@ -386,7 +386,7 @@
                   "page_title": "Get file information",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/file-info.md",
-                  "description": "Inspect source file metadata, versions, locales, and translation state.",
+                  "description": "Inspect source file metadata, versions, locales, and translation state. API reference for Get file information.",
                   "related": [],
                   "children": []
                 },
@@ -396,7 +396,7 @@
                   "page_title": "Get translation status",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/translation-status.md",
-                  "description": "Check translation progress and availability by file and locale.",
+                  "description": "Check translation progress and availability by file and locale. API reference for Get translation status.",
                   "related": [],
                   "children": []
                 },
@@ -406,7 +406,7 @@
                   "page_title": "Move files",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/move-files.md",
-                  "description": "Move or rename files in a project.",
+                  "description": "Move or rename files in a Project. API reference for Move files.",
                   "related": [],
                   "children": []
                 },
@@ -416,7 +416,7 @@
                   "page_title": "Get orphaned files",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/files/orphaned-files.md",
-                  "description": "Find translated files that are no longer connected to current source files.",
+                  "description": "Find translated files that are no longer connected to current source files. API reference for Get orphaned files.",
                   "related": [],
                   "children": []
                 }
@@ -437,7 +437,7 @@
                   "page_title": "Generate translation context",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/context/generate-context.md",
-                  "description": "Generate project glossary terms and translation instructions from source files.",
+                  "description": "Generate Project glossary terms and translation instructions from source files. API reference for Generate translation context.",
                   "related": [],
                   "children": []
                 },
@@ -447,7 +447,7 @@
                   "page_title": "Check context freshness",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/context/check-freshness.md",
-                  "description": "Check whether project context is missing, stale, or ready to refresh.",
+                  "description": "Check whether Project context is missing, stale, or ready to refresh. API reference for Check context freshness.",
                   "related": [],
                   "children": []
                 },
@@ -457,7 +457,7 @@
                   "page_title": "Get context generation status",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/context/context-status.md",
-                  "description": "Track the status of a context generation job.",
+                  "description": "Track the status of a context generation job. API reference for Get context generation status.",
                   "related": [],
                   "children": []
                 }
@@ -478,7 +478,7 @@
                   "page_title": "Translate content at runtime",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/translation/translate-runtime.md",
-                  "description": "Translate strings or structured content directly from an application or service.",
+                  "description": "Translate strings or structured content directly from an application or service. API reference for Translate content at runtime.",
                   "related": [],
                   "children": []
                 },
@@ -488,7 +488,7 @@
                   "page_title": "Queue translations",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/translation/queue.md",
-                  "description": "Queue uploaded source files for background translation.",
+                  "description": "Queue uploaded source files for background translation. API reference for Queue translations.",
                   "related": [],
                   "children": []
                 }
@@ -509,7 +509,7 @@
                   "page_title": "Get translation job status",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/jobs/status.md",
-                  "description": "Retrieve status for a queued translation job.",
+                  "description": "Retrieve status for a queued translation job. API reference for Get translation job status.",
                   "related": [],
                   "children": []
                 }
@@ -530,7 +530,7 @@
                   "page_title": "Get branch information",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/branches/branch-info.md",
-                  "description": "Inspect branch metadata and project branch state.",
+                  "description": "Inspect branch metadata and Project branch state. API reference for Get branch information.",
                   "related": [],
                   "children": []
                 },
@@ -540,7 +540,7 @@
                   "page_title": "Create a branch",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/branches/create-branch.md",
-                  "description": "Create a branch, or rename and confirm the default branch.",
+                  "description": "Create a branch, or rename and confirm the default branch. API reference for Create a branch.",
                   "related": [],
                   "children": []
                 }
@@ -561,7 +561,7 @@
                   "page_title": "Create or update tag",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/tags/upsert-tag.md",
-                  "description": "Create or update a tag on file versions for release tracking.",
+                  "description": "Create or update a tag on file versions for release tracking. API reference for Create or update tag.",
                   "related": [],
                   "children": []
                 }
@@ -578,21 +578,21 @@
               "children": [
                 {
                   "id": "platform-openapi-reference-project-get-project-information",
-                  "nav_title": "Get project information",
-                  "page_title": "Get project information",
+                  "nav_title": "Get Project information",
+                  "page_title": "Get Project information",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/project/project-info.md",
-                  "description": "Read project metadata, settings, and configuration details.",
+                  "description": "Read Project metadata, settings, and configuration details. API reference for Get Project information.",
                   "related": [],
                   "children": []
                 },
                 {
                   "id": "platform-openapi-reference-project-update-project-information",
-                  "nav_title": "Update project information",
-                  "page_title": "Update project information",
+                  "nav_title": "Update Project information",
+                  "page_title": "Update Project information",
                   "kind": "page",
                   "path": "/docs/platform/openapi/reference/project/update-project.md",
-                  "description": "Update project-level settings from automation.",
+                  "description": "Update Project-level settings from automation. API reference for Update Project information.",
                   "related": [],
                   "children": []
                 }
@@ -607,16 +607,16 @@
       "nav_title": "Core",
       "page_title": "Core",
       "kind": "header",
-      "path": "/docs/platform/core/get started/overview.md",
+      "path": "/docs/platform/core/get-started/overview.md",
       "description": "Learn what the `generaltranslation` core library does and when to use it directly.",
       "related": [],
       "children": [
         {
           "id": "platform-core-get-started",
-          "nav_title": "Get Started",
-          "page_title": "Get Started",
+          "nav_title": "Get started",
+          "page_title": "Get started",
           "kind": "header",
-          "path": "/docs/platform/core/get started/overview.md",
+          "path": "/docs/platform/core/get-started/overview.md",
           "description": "Learn what the `generaltranslation` core library does and when to use it directly.",
           "related": [],
           "children": [
@@ -625,7 +625,7 @@
               "nav_title": "Overview",
               "page_title": "Overview",
               "kind": "page",
-              "path": "/docs/platform/core/get started/overview.md",
+              "path": "/docs/platform/core/get-started/overview.md",
               "description": "Learn what the `generaltranslation` core library does and when to use it directly.",
               "related": [],
               "children": []
@@ -635,7 +635,7 @@
               "nav_title": "Quickstart",
               "page_title": "Quickstart",
               "kind": "page",
-              "path": "/docs/platform/core/get started/quickstart.md",
+              "path": "/docs/platform/core/get-started/quickstart.md",
               "description": "Install the `generaltranslation` core library, initialize the GT class, and translate your first string.",
               "related": [],
               "children": []
@@ -707,7 +707,7 @@
                   "page_title": "Constructor",
                   "kind": "page",
                   "path": "/docs/platform/core/reference/gt-class/constructor.md",
-                  "description": "Initialize a GT instance with API keys, project settings, default locales, and locale mappings. API reference for Constructor.",
+                  "description": "Initialize a GT instance with API keys, Project settings, default locales, and locale mappings. API reference for Constructor.",
                   "related": [],
                   "children": []
                 },
@@ -767,7 +767,7 @@
                       "page_title": "uploadSourceFiles",
                       "kind": "page",
                       "path": "/docs/platform/core/reference/gt-class-methods/translation/upload-source-files.md",
-                      "description": "Upload source files to a project before queueing translation. API reference for uploadSourceFiles.",
+                      "description": "Upload source files to a Project before queueing translation. API reference for uploadSourceFiles.",
                       "related": [],
                       "children": []
                     },
@@ -857,7 +857,7 @@
                       "page_title": "setupProject",
                       "kind": "page",
                       "path": "/docs/platform/core/reference/gt-class-methods/translation/setup-project.md",
-                      "description": "Prepare uploaded files for project translation workflows. API reference for setupProject.",
+                      "description": "Prepare uploaded files for Project translation workflows. API reference for setupProject.",
                       "related": [],
                       "children": []
                     },
@@ -867,7 +867,7 @@
                       "page_title": "getProjectData",
                       "kind": "page",
                       "path": "/docs/platform/core/reference/gt-class-methods/translation/get-project-data.md",
-                      "description": "Read project-level metadata and translation configuration. API reference for getProjectData.",
+                      "description": "Read Project-level metadata and translation configuration. API reference for getProjectData.",
                       "related": [],
                       "children": []
                     },

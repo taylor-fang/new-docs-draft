@@ -15,7 +15,7 @@ On the Dashboard, open **Locadex > Agent**. In the Languages section, click **Ed
 
 ## Choose a source locale
 
-Choose or edit the language your source content is written in. Most English projects use `English` as the source locale.
+Choose or edit the language your source content is written in. Most English Projects use `English` as the source locale.
 
 ## Choose target languages
 
@@ -34,5 +34,5 @@ Update languages when you need to:
 - Add a new target language.
 - Remove a target language.
 - Change the source locale.
-- Sync locale configuration after changing project requirements.
+- Sync locale configuration after changing Project requirements.
 

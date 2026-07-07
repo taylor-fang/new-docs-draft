@@ -9,7 +9,7 @@ description: Reference for the Locadex Agent page, repository status, languages,
 
 The Agent page is the main status page for Locadex.
 
-Open it from **Locadex > Agent** in the project sidebar.
+Open it from **Locadex > Agent** in the Project sidebar.
 
 ## Repository
 

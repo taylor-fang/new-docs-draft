@@ -6,7 +6,7 @@
       "pages": [
         {
           "title": "Get started with the API",
-          "path": "openapi/getstarted/index.md",
+          "path": "openapi/get-started.md",
           "description": "Learn when to call the General Translation API directly, how authentication works, and how to use the OpenAPI spec."
         }
       ]
@@ -20,52 +20,52 @@
             {
               "title": "Upload source files",
               "path": "openapi/reference/files/upload-source.md",
-              "description": "Upload one or more source files to a project before queuing translation."
+              "description": "Upload one or more source files to a Project before queuing translation. API reference for Upload source files."
             },
             {
               "title": "Upload translations",
               "path": "openapi/reference/files/upload-translations.md",
-              "description": "Upload translated files that match previously uploaded source files."
+              "description": "Upload translated files that match previously uploaded source files. API reference for Upload translations."
             },
             {
               "title": "Submit file diffs",
               "path": "openapi/reference/files/submit-diffs.md",
-              "description": "Submit diffs for changed source or translated content instead of uploading full files."
+              "description": "Submit diffs for changed source or translated content instead of uploading full files. API reference for Submit file diffs."
             },
             {
               "title": "Download files",
               "path": "openapi/reference/files/download-many.md",
-              "description": "Download multiple translated files in one request."
+              "description": "Download multiple translated files in one request. API reference for Download files."
             },
             {
               "title": "Download file",
               "path": "openapi/reference/files/download.md",
-              "description": "Download a single translated file for a project, locale, or version."
+              "description": "Download a single translated file for a Project, locale, or version. API reference for Download file."
             },
             {
               "title": "Publish files",
               "path": "openapi/reference/files/publish-files.md",
-              "description": "Mark translated files as published so they are ready for delivery."
+              "description": "Mark translated files as published so they are ready for delivery. API reference for Publish files."
             },
             {
               "title": "Get file information",
               "path": "openapi/reference/files/file-info.md",
-              "description": "Inspect source file metadata, versions, locales, and translation state."
+              "description": "Inspect source file metadata, versions, locales, and translation state. API reference for Get file information."
             },
             {
               "title": "Get translation status",
               "path": "openapi/reference/files/translation-status.md",
-              "description": "Check translation progress and availability by file and locale."
+              "description": "Check translation progress and availability by file and locale. API reference for Get translation status."
             },
             {
               "title": "Move files",
               "path": "openapi/reference/files/move-files.md",
-              "description": "Move or rename files in a project."
+              "description": "Move or rename files in a Project. API reference for Move files."
             },
             {
               "title": "Get orphaned files",
               "path": "openapi/reference/files/orphaned-files.md",
-              "description": "Find translated files that are no longer connected to current source files."
+              "description": "Find translated files that are no longer connected to current source files. API reference for Get orphaned files."
             }
           ]
         },
@@ -75,17 +75,17 @@
             {
               "title": "Generate translation context",
               "path": "openapi/reference/context/generate-context.md",
-              "description": "Generate project glossary terms and translation instructions from source files."
+              "description": "Generate Project glossary terms and translation instructions from source files. API reference for Generate translation context."
             },
             {
               "title": "Check context freshness",
               "path": "openapi/reference/context/check-freshness.md",
-              "description": "Check whether project context is missing, stale, or ready to refresh."
+              "description": "Check whether Project context is missing, stale, or ready to refresh. API reference for Check context freshness."
             },
             {
               "title": "Get context generation status",
               "path": "openapi/reference/context/context-status.md",
-              "description": "Track the status of a context generation job."
+              "description": "Track the status of a context generation job. API reference for Get context generation status."
             }
           ]
         },
@@ -95,12 +95,12 @@
             {
               "title": "Translate content at runtime",
               "path": "openapi/reference/translation/translate-runtime.md",
-              "description": "Translate strings or structured content directly from an application or service."
+              "description": "Translate strings or structured content directly from an application or service. API reference for Translate content at runtime."
             },
             {
               "title": "Queue translations",
               "path": "openapi/reference/translation/queue.md",
-              "description": "Queue uploaded source files for background translation."
+              "description": "Queue uploaded source files for background translation. API reference for Queue translations."
             }
           ]
         },
@@ -110,7 +110,7 @@
             {
               "title": "Get translation job status",
               "path": "openapi/reference/jobs/status.md",
-              "description": "Retrieve status for a queued translation job."
+              "description": "Retrieve status for a queued translation job. API reference for Get translation job status."
             }
           ]
         },
@@ -120,12 +120,12 @@
             {
               "title": "Get branch information",
               "path": "openapi/reference/branches/branch-info.md",
-              "description": "Inspect branch metadata and project branch state."
+              "description": "Inspect branch metadata and Project branch state. API reference for Get branch information."
             },
             {
               "title": "Create a branch",
               "path": "openapi/reference/branches/create-branch.md",
-              "description": "Create a branch, or rename and confirm the default branch."
+              "description": "Create a branch, or rename and confirm the default branch. API reference for Create a branch."
             }
           ]
         },
@@ -135,7 +135,7 @@
             {
               "title": "Create or update tag",
               "path": "openapi/reference/tags/upsert-tag.md",
-              "description": "Create or update a tag on file versions for release tracking."
+              "description": "Create or update a tag on file versions for release tracking. API reference for Create or update tag."
             }
           ]
         },
@@ -143,14 +143,14 @@
           "title": "Project",
           "pages": [
             {
-              "title": "Get project information",
+              "title": "Get Project information",
               "path": "openapi/reference/project/project-info.md",
-              "description": "Read project metadata, settings, and configuration details."
+              "description": "Read Project metadata, settings, and configuration details. API reference for Get Project information."
             },
             {
-              "title": "Update project information",
+              "title": "Update Project information",
               "path": "openapi/reference/project/update-project.md",
-              "description": "Update project-level settings from automation."
+              "description": "Update Project-level settings from automation. API reference for Update Project information."
             }
           ]
         }

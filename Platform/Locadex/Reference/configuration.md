@@ -11,7 +11,7 @@ Use **Locadex > Configuration** to control how Locadex runs in your repository.
 
 ## General
 
-General settings apply to the Locadex agent for the project.
+General settings apply to the Locadex agent for the Project.
 
 - **App Root Directory** is the path to your app. Use this for monorepos.
 - **Package Manager** is used to install dependencies in the sandbox.
@@ -84,8 +84,8 @@ Workflow trigger options are:
 
 ## Danger Zone
 
-Danger Zone actions affect the Locadex integration for the project.
+Danger Zone actions affect the Locadex integration for the Project.
 
 - **Disable monitoring** stops automatic workflow triggering. Settings and history are preserved.
 - **Re-run setup** re-detects framework, locales, and configuration from scratch.
-- **Disconnect repository** removes the link between the project and the GitHub repository. Workflow history and settings are preserved.
+- **Disconnect repository** removes the link between the Project and the GitHub repository. Workflow history and settings are preserved.

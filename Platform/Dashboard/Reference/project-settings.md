@@ -1,19 +1,19 @@
 # Project settings
 
-Project settings control how an individual project appears and how its translations are delivered.
+Project settings control how an individual Project appears and how its translations are delivered.
 
 ## General settings
 
-- Update the project **display name**. This changes how the project appears in the dashboard.
-- Update the project **source locale**. This changes the language your content is authored in, but does not update existing translations.
+- Update the Project **display name**. This changes how the Project appears in the Dashboard.
+- Update the Project **source locale**. This changes the language your content is authored in, but does not update existing translations.
 - Enable the **CDN setting** to serve translations from a global CDN for faster load times.
 - Enable **AI Context**, which uses contextual information to improve AI translation quality
 
 ## Project ID
 
-The project ID is read-only and can be copied from Settings. 
+The Project ID is read-only and can be copied from Settings. 
 
-Use it in SDK, CLI, and CI configuration when a workflow needs to target a specific project.
+Use it in SDK, CLI, and CI configuration when a workflow needs to target a specific Project.
 
 ```bash
 GT_PROJECT_ID=...
@@ -21,4 +21,4 @@ GT_PROJECT_ID=...
 
 ## Danger zone
 
-Permanently delete a project, all its translations, API keys, and data. This cannot be undone.
+Permanently delete a Project, all its translations, API keys, and data. This cannot be undone.

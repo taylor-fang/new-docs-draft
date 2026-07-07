@@ -7,19 +7,19 @@ description: Translate strings, batches of strings, and structured content direc
 
 # Translate strings
 
-You can use `[translate](/docs/platform/core/reference/gt-class-methods/translation/translate)` and `[translateMany](/docs/platform/core/reference/gt-class-methods/translation/translate-many)` to translate strings directly from code.
+You can use [translate](/docs/platform/core/reference/gt-class-methods/translation/translate) and [translateMany](/docs/platform/core/reference/gt-class-methods/translation/translate-many) to translate strings directly from code.
 
 Use string translation when your app, script, or service needs translated content at runtime instead of translating a whole file.
 
 ## Before you start
 
-Make sure you've completed the [Quickstart](/docs/platform/core/get-started/quickstart) to install `generaltranslation` and initialize the `[GT](/docs/platform/core/reference/gt-class/constructor)` class.
+Make sure you've completed the [Quickstart](/docs/platform/core/get-started/quickstart) to install `generaltranslation` and initialize the [GT](/docs/platform/core/reference/gt-class/constructor) class.
 
 ## Translate one string
 
-Call `[translate](/docs/platform/core/reference/gt-class-methods/translation/translate)` with the source string and target locale. 
+Call [translate](/docs/platform/core/reference/gt-class-methods/translation/translate) with the source string and target locale. 
 
-If your `[GT](/docs/platform/core/reference/gt-class/constructor)` instance has a `[targetLocale](/docs/platform/core/reference/types/gt-constructor-params)`, you can omit the target locale from the method call. This is useful when a script or service is translating many strings into the same locale.
+If your [GT](/docs/platform/core/reference/gt-class/constructor) instance has a [targetLocale](/docs/platform/core/reference/types/gt-constructor-params), you can omit the target locale from the method call. This is useful when a script or service is translating many strings into the same locale.
 
 ```typescript title="src/index.ts"
 const result = await gt.translate('Hello, world!', 'es');
@@ -31,11 +31,11 @@ if (result.success) {
 }
 ```
 
-See the `[translate](/docs/platform/core/reference/gt-class-methods/translation/translate)` method for more information.
+See the [translate](/docs/platform/core/reference/gt-class-methods/translation/translate) method for more information.
 
 ## Translate many strings
 
-Call `[translateMany](/docs/platform/core/reference/gt-class-methods/translation/translate-many)` to efficiently translate multiple content items in a single API request. It's optimized for batch processing and provides better performance than multiple individual `[translate](/docs/platform/core/reference/gt-class-methods/translation/translate)` calls.
+Call [translateMany](/docs/platform/core/reference/gt-class-methods/translation/translate-many) to efficiently translate multiple content items in a single API request. It's optimized for batch processing and provides better performance than multiple individual [translate](/docs/platform/core/reference/gt-class-methods/translation/translate) calls.
 
 ```typescript title="src/index.ts"
 const results = await gt.translateMany(
@@ -44,7 +44,7 @@ const results = await gt.translateMany(
 );
 ```
 
-See the `[translateMany](/docs/platform/core/reference/gt-class-methods/translation/translate-many)` method for more information.
+See the [translateMany](/docs/platform/core/reference/gt-class-methods/translation/translate-many) method for more information.
 
 ## Add context with source metadata
 

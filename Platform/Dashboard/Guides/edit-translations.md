@@ -36,9 +36,9 @@ Use **Search** to filter the current view by:
 Select between two views (in the top left):
 
 - **Files** for Markdown, JSON, gettext, and other file-based content.
-- **Components** for React and JSX projects where strings live in UI components.
+- **Components** for React and JSX Projects where strings live in UI components.
 
-From any project page, you can also press `⌘K` on macOS or `Ctrl+K` on Windows to search across files and components. Search results link directly to the matching entry.
+From any Project page, you can also press `⌘K` on macOS or `Ctrl+K` on Windows to search across files and components. Search results link directly to the matching entry.
 
 ## Edit translations inline
 
@@ -58,7 +58,7 @@ Click **History** to inspect previous translation versions. Use to:
 
 - Compare a manual edit
 - Restore a prior state
-- Confirm when a translated file chnaged
+- Confirm when a translated file changed
 
 You can also:
 
@@ -66,8 +66,6 @@ You can also:
 - Show or hide source content
 - Filter by [annotation labels](/docs/platform/dashboard/guides/annotations)
 
-
-
 ## Track review with annotations
 
-Annotation indicators appear inside each cell: click to open the annotation panel for that entry and locale. Read more about [Annotations.](/docs/platform/dashboard/guides/annotations)
+Annotation indicators appear inside each cell: click to open the annotation panel for that entry and locale. Read more about [Annotations](/docs/platform/dashboard/guides/annotations).

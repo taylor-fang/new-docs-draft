@@ -7,7 +7,7 @@ description: Install the `generaltranslation` core library, initialize the GT cl
 
 # Quickstart
 
-Use this quickstart to install `generaltranslation`, create a `[GT](/docs/platform/core/reference/gt-class/constructor)` instance, and run your first translation. For a broader introduction, see the [Overview](/docs/platform/core/get-started/overview).
+Use this quickstart to install `generaltranslation`, create a [GT](/docs/platform/core/reference/gt-class/constructor) instance, and run your first translation. For a broader introduction, see the [Overview](/docs/platform/core/get-started/overview).
 
 ## 1. Install `generaltranslation`
 
@@ -28,11 +28,11 @@ GT_PROJECT_ID=your-project-id
 GT_API_KEY=your-api-key
 ```
 
-General Translation offers high free rate limits for personal projects, solo developers, and the community.
+General Translation offers high free rate limits for personal Projects, solo developers, and the community.
 
 ## 3. Initialize the GT class
 
-Initialize the `[GT](/docs/platform/core/reference/gt-class/constructor)` class and securely pass your `GT_PROJECT_ID` and `GT_API_KEY`.
+Initialize the [GT](/docs/platform/core/reference/gt-class/constructor) class and securely pass your `GT_PROJECT_ID` and `GT_API_KEY`.
 
 ```typescript title="src/index.ts"
 import { GT } from 'generaltranslation';
@@ -43,7 +43,7 @@ const gt = new GT({
 });
 ```
 
-You can configure default locales on the `[GT](/docs/platform/core/reference/gt-class/constructor)` instance. Use default locales when most calls use the same source or target locale. 
+You can configure default locales on the [GT](/docs/platform/core/reference/gt-class/constructor) instance. Use default locales when most calls use the same source or target locale. 
 
 ```typescript title="src/index.ts"
 const gt = new GT({
@@ -58,7 +58,7 @@ See [GT class](/docs/platform/core/reference/gt-class/constructor) for all const
 
 ## 4. Translate your first string
 
-Call the `[translate](/docs/platform/core/reference/gt-class-methods/translation/translate)` method to translate your first string. Pass the string you want to translate, and the target locale.
+Call the [translate](/docs/platform/core/reference/gt-class-methods/translation/translate) method to translate your first string. Pass the string you want to translate, and the target locale.
 
 ```typescript title="src/index.ts"
 const result = await gt.translate('Hello, world!', 'es');

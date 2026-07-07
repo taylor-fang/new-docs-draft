@@ -9,9 +9,9 @@ description: Learn how to use Locadex, the AI agent which connects your codebase
 
 Locadex is the General Translation AI agent that connects your codebase, translations, and content sources. 
 
-It takes **5 minutes** to set up, after which your project will be configured and translated into any language you choose **automatically**. Locadex is built to handle 100% of internationalization (i18n) and translation work for you.
+It takes **5 minutes** to set up, after which your Project will be configured and translated into any language you choose **automatically**. Locadex is built to handle 100% of internationalization (i18n) and translation work for you.
 
-Locadex currently supports **Next.js** and **Mintlify** projects only.
+Locadex currently supports **Next.js** and **Mintlify** Projects only.
 
 ## How Locadex works
 
@@ -19,23 +19,23 @@ Locadex works inside your GitHub repository and automatically opens PRs for ever
 
 - **Codegen** wraps source code with the right internationalization (i18n) library calls, such as `t()` and the `T` component.
 - **Translation** translates source content into every target language and updates translation files.
-- **Update Locales** updates project files when languages are added or removed.
+- **Update Locales** updates Project files when languages are added or removed.
 
 Each workflow can run manually, on pull requests, or on Commits. You choose the trigger settings.
 
 ## Quickstart
 
-Seting up Locadex takes just 5 minutes. You will need a [General Translation](https://dash.generaltranslation.com) project and GitHub repository containing a Mintlify or Next.js App Router project. 
+Setting up Locadex takes just 5 minutes. You will need a [General Translation](https://dash.generaltranslation.com) Project and GitHub repository containing a Mintlify or Next.js App Router project. 
 
-1. **Connect GitHub.** Open your project from the [Dashboard](https://dash.generaltranslation.com) and go to **Locadex > Agent** in your sidebar. Connect your GitHub account and authorize the connection. Follow the flow, which will guide you through permissions for the repositories you want Locadex to access (all repositories, or a specific selection).
-2. **Link your repository.** Back in the dashboard, select the repository to internationalize. Each project links to one repository; create additional projects for additional repositories.
-3. **Configure the project.**
+1. **Connect GitHub.** Open your Project from the [Dashboard](https://dash.generaltranslation.com) and go to **Locadex > Agent** in your sidebar. Connect your GitHub account and authorize the connection. Follow the flow, which will guide you through permissions for the repositories you want Locadex to access (all repositories, or a specific selection).
+2. **Link your repository.** Back in the Dashboard, select the repository to internationalize. Each Project links to one repository; create additional Projects for additional repositories.
+3. **Configure the Project.**
   - **Set app root directory** (for monorepos). Use `.` or leave the field empty when the app is at the repository root.
   - **Optional:** set **package manager** so Locadex can install dependencies in the sandbox and set **linter** so Locadex can preserve code style after changes.
   - **Choose your language(s)**: your source (default) locale and the target languages your application will be translated into. Target languages can be selected from all 120 General Translation supported locales.
-4. **Review and merge.** Locadex automatically runs its setup workflow to install the i18n library, configure your project, and add the translation infrastructure. This may take a few minutes to complete. Open the PR (use **View on GitHub**), review the changes, and merge to complete your setup.
+4. **Review and merge.** Locadex automatically runs its setup workflow to install the i18n library, configure your Project, and add the translation infrastructure. This may take a few minutes to complete. Open the PR (use **View on GitHub**), review the changes, and merge to complete your setup.
 
-That's it! After the setup PR is merged, Locadex monitors your main branch for commits and updates translations as needed. Review new PRs or **enable [auto-merge](/docs/locadex/auto-merge)** and your app stays translated without manual work. 
+That's it! After the setup PR is merged, Locadex monitors your main branch for commits and updates translations as needed. Review new PRs or **enable [auto-merge](/docs/platform/locadex/guides/auto-merge)** and your app stays translated without manual work. 
 
 You can trigger a run yourself at any time with **Run Agent**.
 
@@ -46,7 +46,7 @@ You can trigger a run yourself at any time with **Run Agent**.
 ### Configuring Locadex
 
 - **Control when Locadex runs:** configure triggers, target branches, generated PR settings, and pre/post-process commands. See [Configure workflows](/docs/platform/locadex/guides/configure-workflows).
-- **Merge generated PRs automatically:** enable auto-merge when you want Locadex changes to auto-merge after checks pass. See [Auto-merge Locadex PRs](/docs/platform/locadex/guides/auto-merge-prs).
+- **Merge generated PRs automatically:** enable auto-merge when you want Locadex changes to auto-merge after checks pass. See [Auto-merge Locadex PRs](/docs/platform/locadex/guides/auto-merge).
 - **Add secrets for workflow runs:** add environment variables for API keys, tokens, or build settings used in the Locadex sandbox. See [Add environment variables](/docs/platform/locadex/guides/environment-variables).
 - **Set up a monorepo:** configure the app root directory when your Mintlify or Next.js app lives in a subdirectory. See [Use Locadex in a monorepo](/docs/platform/locadex/guides/monorepos).
 

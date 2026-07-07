@@ -1,12 +1,12 @@
 ---
 
-title: Organization Settings
+title: Organization settings
 
-description: Manage organization members, roles, invitations, and default settings.
+description: Manage Organization members, roles, invitations, and default settings.
 
 ---
 
-# Organization Settings
+# Organization settings
 
 General Translation accounts use **Organizations** as the main workspace for Projects and team members. Most users work within a single Organization.
 
@@ -22,12 +22,12 @@ For Enterprise accounts, members added at the Enterprise level can access all ma
 
 ## Member roles
 
-The Members page shows everyone with access to your organization. Roles control what members can see and do.
+The Members page shows everyone with access to your Organization. Roles control what members can see and do.
 
-- **Admin** has full access to all organization settings, projects, members, billing, and translations. Admins can delete the organization.
-- **Developer** has technical access to projects, including API keys, GitHub integration, Locadex, and usage data.
+- **Admin** has full access to all Organization settings, Projects, members, billing, and translations. Admins can delete the Organization.
+- **Developer** has technical access to Projects, including API keys, GitHub integration, Locadex, and usage data.
 - **Editor** can read, edit, and review translations.
-- **Member** can view the organization but has no specific permissions by default.
+- **Member** can view the Organization but has no specific permissions by default.
 
 For a detailed breakdown, see [roles and permissions](/docs/platform/dashboard/reference/roles-and-permissions).
 

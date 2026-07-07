@@ -9,6 +9,6 @@ description: Browse Reference pages for the General Translation agent Locadex.
 
 Browse Reference pages for the General Translation agent Locadex.
 
-- [Agent page](/docs/platform/locadex/reference/agent.md): Reference for the Locadex Agent page, repository status, languages, and recent workflow runs.
-- [Configuration](/docs/platform/locadex/reference/configuration.md): Reference for Locadex general settings, workflows, languages, secrets, and danger zone actions.
-- [VM image](/docs/platform/locadex/reference/vm-image.md): Reference for the sandbox environment Locadex uses to run workflows.
+- [Agent page](/docs/platform/locadex/reference/agent): Reference for the Locadex Agent page, repository status, languages, and recent workflow runs.
+- [Configuration](/docs/platform/locadex/reference/configuration): Reference for Locadex general settings, workflows, languages, secrets, and danger zone actions.
+- [VM image](/docs/platform/locadex/reference/vm-image): Reference for the sandbox environment Locadex uses to run workflows.

@@ -11,7 +11,7 @@ The `generaltranslation` library can translate full source files. This page expl
 
 ## Before you start
 
-Make sure you've completed the [Quickstart](/docs/platform/core/get-started/quickstart) to install `generaltranslation` and initialize the `[GT](/docs/platform/core/reference/gt-class/constructor)` class.
+Make sure you've completed the [Quickstart](/docs/platform/core/get-started/quickstart) to install `generaltranslation` and initialize the [GT](/docs/platform/core/reference/gt-class/constructor) class.
 
 ## How file translation works
 
@@ -22,9 +22,9 @@ Files are translated as jobs:
 3. Check translation status.
 4. Download the translated file.
 
-File translation uses multiple calls because projects often translate many files. Separate steps give you more flexibility in using the API: making it easier to batch files, retry failed work, poll jobs, and download output when ready. 
+File translation uses multiple calls because Projects often translate many files. Separate steps give you more flexibility in using the API: making it easier to batch files, retry failed work, poll jobs, and download output when ready. 
 
-Launch a job by uploading a file; uploading many files will launch many jobs. See the `[uploadSourceFiles](/docs/platform/core/reference/gt-class-methods/translation/upload-source-files)` and `[queryFileData](/docs/platform/core/reference/gt-class-methods/translation/query-file-data)` methods for more information.
+Launch a job by uploading a file; uploading many files will launch many jobs. See the [uploadSourceFiles](/docs/platform/core/reference/gt-class-methods/translation/upload-source-files) and [queryFileData](/docs/platform/core/reference/gt-class-methods/translation/query-file-data) methods for more information.
 
 ## 1. Upload the source file
 
@@ -37,7 +37,7 @@ As an example, this guide translates this English JSON file:
 }
 ```
 
-Read the file, format contents, and then call `[uploadSourceFiles](/docs/platform/core/reference/gt-class-methods/translation/upload-source-files)` to upload files.
+Read the file, format contents, and then call [uploadSourceFiles](/docs/platform/core/reference/gt-class-methods/translation/upload-source-files) to upload files.
 
 ```typescript title="src/index.ts"
 import fs from 'fs';
@@ -66,7 +66,7 @@ const { uploadedFiles } = await gt.uploadSourceFiles(
 );
 ```
 
-The response returns a list of file references. This allows you to later check the enqueue the file for translation, check the status of the file, and download the translated file.
+The response returns a list of file references. This allows you to later enqueue the file for translation, check the status of the file, and download the translated file.
 
 ```ts title="Output"
 [
@@ -82,7 +82,7 @@ The response returns a list of file references. This allows you to later check t
 
 ## 2. Enqueue the file for translation
 
-Use `[enqueueFiles](/docs/platform/core/reference/gt-class-methods/translation/enqueue-files)` with the uploaded file reference and target locales. In this example, we will translate to Spanish (`es`).
+Use [enqueueFiles](/docs/platform/core/reference/gt-class-methods/translation/enqueue-files) with the uploaded file reference and target locales. In this example, we will translate to Spanish (`es`).
 
 ```typescript title="src/index.ts"
 const fileUploadRef = {
@@ -114,7 +114,7 @@ The response returns a result with job information.
 
 ## 3. Check file status
 
-Use `[queryFileData](/docs/platform/core/reference/gt-class-methods/translation/query-file-data)` to check whether the translated file is complete and ready for download.
+Use [queryFileData](/docs/platform/core/reference/gt-class-methods/translation/query-file-data) to check whether the translated file is complete and ready for download.
 
 ```typescript title="src/index.ts"
 const { fileId, versionId, branchId } = uploadedFiles[0];
@@ -149,7 +149,7 @@ If the file is still being translated, `completedAt` is `null`. When complete, i
 
 ## 4. Download the translated file
 
-Finally, download the translated file with the `[downloadFile](/docs/platform/core/reference/gt-class-methods/translation/download-file)` method.
+Finally, download the translated file with the [downloadFile](/docs/platform/core/reference/gt-class-methods/translation/download-file) method.
 
 ```typescript title="src/index.ts"
 const { fileId, branchId } = uploadedFiles[0];

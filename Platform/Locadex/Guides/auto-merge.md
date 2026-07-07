@@ -17,11 +17,11 @@ Open **Locadex > Configuration**. Choose the workflow you want to configure:
 
 - **Codegen** for code internationalization. Automatically wrap source code with internationalization library calls such as `t()` or the `T` component.
 - **Translation** for content updates. Automatically translate new or updated source content into target languages.
-- **Locales** for locale updates. Automatically update files in your project if languages are added or removed.
+- **Locales** for locale updates. Automatically update files in your Project if languages are added or removed.
 
 Read more about workflows at [Configure Workflows](/docs/platform/locadex/guides/configure-workflows).
 
-For Mintlify projects, auto-merge is enabled by default.
+For Mintlify Projects, auto-merge is enabled by default.
 
 ## Configure GitHub permissions
 
@@ -61,4 +61,4 @@ Keep auto-merge off when:
 - Your repository does not have reliable required checks.
 - You are still testing Locadex setup.
 
-Note: auto-merge does not apply to PRs for Setup or Re-run Setup.
+*Note: auto-merge does not apply to PRs for Setup or Re-run Setup.*

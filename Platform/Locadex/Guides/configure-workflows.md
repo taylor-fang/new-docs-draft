@@ -13,14 +13,14 @@ Locadex has three workflows: **Codegen**, **Translation**, and **Update Locales*
 
 ## Choose your workflow
 
-In your Dashboard project sidebar, open **Locadex > Configuration**. You can configure three Locadex workflows for each project:
+In your Dashboard Project sidebar, open **Locadex > Configuration**. You can configure three Locadex workflows for each Project:
 
 - **Codegen** for code internationalization. 
   - Set when Locadex should wrap your source code with internationalization library calls such as `t()` or the `T` component.
 - **Translation** for content updates. 
   - Set when Locadex should translate new or updated source content into target languages.
 - **Locales** for locale updates. 
-  - Set when Locadex should update files in your project, if languages are added or removed. Use this workflow when changing source or target languages from the Agent page.
+  - Set when Locadex should update files in your Project, if languages are added or removed. Use this workflow when changing source or target languages from the Agent page.
 
 ## Configure your workflow
 
@@ -36,7 +36,7 @@ The default triggers for each workflow are: "On pull request" for Codegen, "On c
 
 ### Edit target branch and prefix
 
-Set **Target Branch** to the branch Locadex should monitor for changes. Most projects use `main`.
+Set **Target Branch** to the branch Locadex should monitor for changes. Most Projects use `main`.
 
 Set **Branch Prefix** for branches created by Locadex. The default prefix is usually:
 
@@ -61,7 +61,7 @@ The text boxes at the bottom of the page provide additional customizability:
 
 ### Add commands
 
-Use commands to run steps such as setup or validation on your project. Use commands to install dependencies, build your project, lint generated changes, or run project-specific checks. Commands can be run before or after Locadex processes files:
+Use commands to run steps such as setup or validation on your Project. Use commands to install dependencies, build your Project, lint generated changes, or run Project-specific checks. Commands can be run before or after Locadex processes files:
 
 - **Pre-process command** runs before Locadex processes files. For example, run `npm run build`.
 - **Post-process command** runs after Locadex processes files. For example, run `npm run typecheck` .

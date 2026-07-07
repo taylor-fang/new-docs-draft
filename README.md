@@ -14,6 +14,12 @@ Platform and sections (Dashboard, Locadex, OpenAPI, and Core) are completed and 
 
 Still to be completed: CLI, React, Node, Python, Integrations, and Overview pages (Get Started, Key Terms and Concepts, Use Agents)
 
+## Style Guide
+
+`SKILL.md` is the style guide for authoring and updating the Platform docs. It captures the project-specific conventions used throughout `Platform/` — information architecture (Get Started, Guides, Reference), file and folder naming, frontmatter, page structure, lists vs. tables, voice and formatting, canonical term casing, and link rules — plus a consistency checklist to run before finishing edits.
+
+It is also registered as a Cursor Agent Skill (`.cursor/skills/platform-docs/SKILL.md`) so the agent automatically follows these conventions when creating, editing, or reviewing any page under `Platform/`. Update `SKILL.md` whenever a convention changes so the docs and the skill stay in sync.
+
 ## Path Conventions
 
 All docs paths in JSON are lowercase. `Platform/platform-filetree.json` uses full docs paths:
