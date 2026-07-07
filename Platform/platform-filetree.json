@@ -36,22 +36,22 @@
           "related": [],
           "children": [
             {
-              "id": "platform-dashboard-guides-review-and-edit-translations",
-              "nav_title": "Review and edit translations",
-              "page_title": "Review and edit translations",
-              "kind": "page",
-              "path": "/docs/platform/dashboard/guides/edit-translations.md",
-              "description": "Review generated translations, make manual edits, compare locales, and inspect version history in the Dashboard.",
-              "related": [],
-              "children": []
-            },
-            {
               "id": "platform-dashboard-guides-guide-translations-with-context-and-key-terms",
               "nav_title": "Guide translations with context and key terms",
               "page_title": "Guide translations with context and key terms",
               "kind": "page",
               "path": "/docs/platform/dashboard/guides/context.md",
               "description": "Use Context Groups with Glossary (key terms) and Directives (tone and style) to guide AI translation.",
+              "related": [],
+              "children": []
+            },
+            {
+              "id": "platform-dashboard-guides-review-and-edit-translations",
+              "nav_title": "Review and edit translations",
+              "page_title": "Review and edit translations",
+              "kind": "page",
+              "path": "/docs/platform/dashboard/guides/edit-translations.md",
+              "description": "Review generated translations, make manual edits, compare locales, and inspect version history in the Dashboard.",
               "related": [],
               "children": []
             },

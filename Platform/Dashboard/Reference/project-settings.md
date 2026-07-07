@@ -5,7 +5,7 @@ Project settings control how an individual project appears and how its translati
 ## General settings
 
 - Update the project **display name**. This changes how the project appears in the dashboard.
-- Update the project **source locale**. This changes the language your content is authored in, but does not re-translate existing translations.
+- Update the project **source locale**. This changes the language your content is authored in, but does not update existing translations.
 - Enable the **CDN setting** to serve translations from a global CDN for faster load times.
 - Enable **AI Context**, which uses contextual information to improve AI translation quality
 

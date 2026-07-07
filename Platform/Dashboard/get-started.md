@@ -9,16 +9,21 @@ description: Learn how the Dashboard is organized and where to find common trans
 
 The Dashboard is the web app for reviewing translations, guiding the AI with context and glossaries, and managing settings and API keys.
 
-## Common workflows
+## Key workflows
 
+- **Define context and key terms for translation:** use Context Groups to guide terminology and style across projects. See [Define translation context](/docs/platform/dashboard/guides/context).
 - **Review and edit translations:** compare locales, make manual edits, and inspect version history. See [Review and edit translations](/docs/platform/dashboard/guides/edit-translations).
-- **Define translation context:** use Context Groups to guide terminology and style across projects. See [Define translation context](/docs/platform/dashboard/guides/context).
 - **Add annotations:** label entries, add notes, and discuss translation decisions with your team. See [Add annotations](/docs/platform/dashboard/guides/annotations).
+- **Automate the whole process:** see [Locadex](/docs/platform/locadex) to automate localization setup and maintenance.
+
+
+
+## Configuration
+
 - **Create API keys:** use project keys for a single project and organization keys for broader automation. See [API keys](/docs/platform/dashboard/reference/api-keys).
 - **Manage team access:** invite members and manage organization settings from the Organization scope. See [Organization Settings](/docs/platform/dashboard/reference/organization-settings) and [Roles and permissions](/docs/platform/dashboard/reference/roles-and-permissions).
 - **Configure projects:** update project name, source locale, CDN delivery, AI Context, and project ID from Project settings. See [Project settings](/docs/platform/dashboard/reference/project-settings).
 - **Send events to your backend:** use webhooks to receive signed translation events. See [Webhooks](/docs/platform/dashboard/reference/webhooks).
-- **Automate the whole process:** see [Locadex](/docs/platform/locadex) to automate localization setup and maintenance.
 
 
 
@@ -36,7 +41,7 @@ If you do not see a page, check that you are in the right organization or projec
 
 ## FAQs
 
-**What is General Translation?** General Translation (GT) is a full-stack localization platform that translates your app into any language. It combines i18n libraries, an AI-native translation platform, and Locadex, our purpose-built agent. GT handles localization and internationalization for you end-to-end. By connecting your code, content, and translations, GT builds complete understanding of your codebase and product context. So your translations actually reflect the logic of your application, in native speed and quality.
+**What is General Translation?** General Translation (GT) is a full-stack localization platform that translates your app into any language. It combines i18n libraries, an AI-native translation platform, and our purpose-built agent, Locadex. The product handles localization and internationalization for you end-to-end. By connecting your code, content, and translations, GT builds complete understanding of your codebase and product context. So your translations actually reflect the logic of your application — in native speed and quality.
 
 **How do I get an API key?** Create a project, then open **API Keys** at the project or organization level. Project keys are used for one project. Organization keys support custom permissions for broader automation. See [API keys](/docs/platform/dashboard/reference/api-keys).
 
@@ -48,6 +53,6 @@ If you do not see a page, check that you are in the right organization or projec
 
 **How do I update existing translations after changing the Glossary?** Select relevant terms and use Apply Glossary to update existing translations that contain selected Glossary terms. See [Define translation context](/docs/platform/dashboard/guides/context).
 
-**How do I regenerate translations?** Use the CLI to run a new translation pass. The Dashboard does not currently support full-file retranslation.
+**How do I regenerate translations?** Use the CLI or Locadex to run a new translation pass. The Dashboard does not currently support full-file retranslation.
 
 **How do I sync Dashboard edits back to GitHub?** Use Locadex to create pull requests for Dashboard changes, such as manual translation edits or Apply Glossary updates.

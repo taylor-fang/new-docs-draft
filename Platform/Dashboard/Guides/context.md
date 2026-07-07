@@ -10,62 +10,32 @@ description: Use Context Groups with Glossary (key terms) and Directives (tone a
 
 Define how your product should be translated, including **terminology and style** that should stay consistent across projects and across your whole organization. 
 
-General Translation applies shared context through **Context Groups**, which include a **Glossary** (key terms) and **Directives** (tone and style). Context Groups are applied to new translations, but do not automatically update existing translations. See Apply Glossary.
+General Translation applies reusable translation instructions through Context Groups.
 
-## Basic translation context workflow
+## Basic context workflow
 
 1. Open your Organization in the Dashboard.
 2. Go to the **Context** page.
 3. Create a **Context Group**.
-4. Add a **Glossary** (for terminology) and/or **Directives** (for style).
+4. Add a **Glossary** (for terminology) and/or **Directives** (for style and tone).
 5. **Assign** your Context Group to relevant project(s).
-6. Translate, regenerate translations, or apply Glossary updates.
+6. Generate translations or apply updates to existing translations.
+
+
 
 ## What are Context Groups?
 
-Context Groups are reusable collections of translation context. They combine Glossary terms and Directives so you can guide translations consistently across your organization.
+**Context Groups** define consistent instructions for translation. Each Context Group includes a Glossary and Directives:
 
-a) **Glossary** defines **terminology**: product and brand names, features, and technical terms. *Example: Locadex is the GT agent which should not be translated*
+a) **Glossary** defines **key terms**: product and brand names, features, and technical terms. *Example: Locadex is the GT agent. This product name should never be translated.*
 
-b) **Directives** define **style**: tone, audience, formality, conventions, and formatting. *Example: Use active voice, avoid jargon, use formal “sie”*
+b) **Directives** define **style and tone**: audience, formality, conventions, and formatting. *Example: Use active voice, avoid jargon, and use formal “sie”*
 
-All Context Groups are stored at the Organization level, and can be assigned to one or more Projects.
+All Context Groups are stored at the Organization-wide level. They can then be applied to one or more Projects.
 
-## Create and assign Context Groups
+## Using key terms in the Glossary
 
-You can create a Context Group from the organization or from a project.
-
-### Create a Context Group for multiple projects
-
-Use the organization-level flow when you want to create a shared group first, then assign it to one or more projects.
-
-1. Open **Context** in the organization sidebar.
-2. Click the plus sign and **Create new group**.
-3. Enter name and confirm.
-4. Add relevant **Glossary** terms and **Directives**.
-5. Open each relevant project.
-6. Assign the group from the project's **Context** tab.
-
-Assigned context groups apply their glossary terms and directives whenever the project is translated, regenerated, or processed by Locadex.
-
-### Create a Context Group for the current project
-
-Use the project-level flow when you are already working in a project and want the group assigned there immediately.
-
-1. Open **Context** in the project sidebar.
-2. Click the plus sign and **Create new group**.
-3. Enter name and confirm. Select the checkbox to **Autogenerate context** from your project files.
-4. Add relevant **Glossary** terms and **Directives**.
-
-When you create a context group from a project, it is still created at the organization level. We automatically assign it to the current project. 
-
-### Import existing Context Group
-
-Move context between tools or seed a group from an existing terminology list. **Export** to download a group's glossary and directives. **Import** to fill an empty Glossary and Directive fields from a supported file.
-
-## Add key terms in Glossary
-
-Use the glossary for words and phrases that need consistent treatment across translations. Glossary terms are useful for:
+Use the Glossary for words and phrases that need consistent treatment across translations. Glossary terms are useful for:
 
 - Brand names
 - Product names
@@ -73,13 +43,13 @@ Use the glossary for words and phrases that need consistent treatment across tra
 - Technical terms
 - Phrases that should stay untranslated
 
-Add terms to the context group that should own them. If a term appears in multiple assigned groups, the higher-priority group wins.
+Add terms to the Context Group that should own them. If the same term appears in multiple assigned groups, the higher-priority group wins. *(See Context Priority section).*
 
-## Add tone and style in Directives
+## Using style and tone in Directives
 
-Use directives for translation instructions that are broader than a single term. Directives are useful for:
+Use Directives for translation instructions that are broader than a single term. Directives are useful for:
 
-- Tone
+- Style and tone
 - Target audience
 - Formal or informal address
 - Locale-specific style rules
@@ -87,35 +57,63 @@ Use directives for translation instructions that are broader than a single term.
 
 Directives can be global or locale-specific. Use locale-specific directives when guidance should apply only to one target language or region.
 
-## Set context priority
+## How to create and assign a Context Group
 
-When a project has multiple assigned groups, priority determines which guidance wins when groups overlap.
+You can create a Context Group from your Organization page or from a specific Project page.
 
-- The top group has the highest priority
-- Reorder groups from the project Context page
-- If the same glossary term appears in multiple groups, the higher-priority group is used
-- Newly generated or imported terms are saved to the highest-priority group
+*Note that Context Groups apply to new translations but do not automatically rewrite  existing translations. See Apply Glossary section.*
+
+### a) Create a Context Group for multiple Projects
+
+*Use the Organization-level flow when you want to create a shared group first, then assign it to one or more Projects.*
+
+1. Open **Context** in the organization sidebar.
+2. Click the plus sign and **Create new group**.
+3. Enter name and confirm.
+4. Add relevant **Glossary** terms and **Directives**.
+5. Open each relevant project.
+6. Assign the group from the project's **Context** tab.
+7. Use the **Translate** button to use AI to generate translations for Glossary terms for each target locale.
+
+Context Groups are applied every time AI generates translations, including Locadex processing.
+
+### b) Create a Context Group for your current Project
+
+*Use the Project-level flow when you are already working in a Project and want the group assigned there immediately.*
+
+1. Open **Context** in the project sidebar.
+2. Click the plus sign and **Create new group**.
+3. Enter name and confirm. Select the checkbox to **Autogenerate context** from your project files.
+4. Add relevant **Glossary** terms and **Directives**.
+5. Use the **Translate** button to use AI to generate translations for Glossary terms for each target locale.
+
+When you create a Context Group from a project, it is still created at the organization level. GT automatically assigns it to the current project. 
+
+### c) Import or export existing Context Group
+
+*Use the import/export flow to manage existing Context Groups.*
+
+In most cases, you should directly assign or reassign projects to Context Groups.
+
+However, for major changes, you can also use **Export** to download a group's Glossary and Directives. Then use **Import** to fill an empty Glossary and Directive fields from a supported file. 
+
+## Set priority when groups overlap
+
+When a Project has multiple assigned groups, context priority determines which guidance wins when groups overlap. 
+
+- Reorder groups from **Project > Context** (the top group has the highest priority).
+- Newly generated terms are automatically saved to the highest-priority group.
 
 
 
-## Apply context to existing translations
+## Generate Glossary translations
 
-Context Groups are applied whenever the AI generates translations, including initial translation, regenerating translations, and Locadex processing.
+Use the **Translate** button on the project **Context** page to generate AI translations for your Glossary terms in each target locale.
 
-However, editing Context Groups does not automatically rewrite every existing translation. To apply your changes:
+## Apply Glossary translations
 
-- Use the CLI when you want AI to create new versions of every file.
-- Use **Apply Glossary** when you only need existing translations to pick up selected Glossary terms.
+*Editing a Context Group will apply for all new translations but does not automatically update existing translations.*
 
+Use the **Apply** button on the project **Context** page to update existing translated content with selected Glossary terms and locales.
 
-
-### Apply Glossary
-
-Apply Glossary retranslates only files that contain selected Glossary terms.
-
-1. Open the Project **Context** page.
-2. Select the Glossary terms you want to apply.
-3. Click **Apply** and choose the locales to update.
-4. Start the Apply job, and wait for the background job to finish.
-5. Review the updated translations.
-
+For full retranslation of a file instead, use the [CLI](/docs/cli/get-started) or run [Locadex](/docs/platform/locadex/get-started) translation.

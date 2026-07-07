@@ -1,6 +1,7 @@
 ---
 
-title: Get started with Locadex description: Learn how to use Locadex, the AI agent which connects your codebase, translations, and content sources. It’s the fastest way to run full stack localization.
+title: Get started with Locadex  
+description: Learn how to use Locadex, the AI agent which connects your codebase, translations, and content sources. It’s the fastest way to run General Translation's full-stack localization.
 
 ---
 
@@ -58,7 +59,9 @@ You can trigger a run yourself at any time with **Run Agent**.
 - **Review generated translations:** compare locales, make manual edits, and inspect version history. See [Review and edit translations](/docs/platform/dashboard/guides/edit-translations) in the Dashboard.
 - **Guide translation quality:** use Context Groups to define glossary terms, product names, and style rules. See [Define translation context](/docs/platform/dashboard/guides/context) in the Dashboard.
 
+
+
 ### Re-running Locadex setup
 
-- If you need to start the configuration flow again, ****open **Configuration > General** and click **Re-run setup**. Re-running setup re-detects your framework, locales, and configuration from scratch.
+- If you need to start the configuration flow again, open **Configuration > General** and click **Re-run setup**. Re-running setup re-detects your framework, locales, and configuration from scratch.
 

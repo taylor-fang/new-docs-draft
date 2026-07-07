@@ -9,7 +9,7 @@ description: Use labels, notes, and comments to coordinate translation review by
 
 Annotations help you review translations and translation decisions. Use them to mark entries, review workflows, and discuss issues with your team.
 
-Note that annotations are not available on the Starter plan.
+*Note that annotations are not available on the Starter plan.*
 
 ## Annotation scope and types
 
@@ -19,11 +19,15 @@ For example, an entry's Spanish translation can have different labels, notes, an
 
 General Translation supports three annotation **types**: labels, notes, and comments.
 
+
 | Annotation Type                                       | Best For                                                       | Usage                                                                                         |
 | ----------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **Labels** are colored tags for categorizing entries. | **Review states** like "Needs review," "Approved," or "Legal." | Create project-wide labels, toggle them on entries, manage them in bulk, and filter by label. |
 | **Note** is a plain-text note attached to an entry.   | Translator guidance and **internal context**.                  | Add a singular note per entry and locale.                                                     |
 | **Comments** are threaded discussions.                | **Team conversations** with replies, resolve, and reopen.      | Start a thread, reply, resolve it when complete, and reopen if needed.                        |
+
+
+
 
 ## Add annotations
 
@@ -34,6 +38,8 @@ Click the **Comment** icon to open the full panel, where you can:
 - Create, edit, toggle, and archive **labels**.
 - Add or edit the **note**.
 - Create **comments**, reply, and resolve threads. Resolved threads collapse into a separate section so active discussions stay visible.
+
+
 
 ## Manage and filter labels
 
